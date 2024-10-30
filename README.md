@@ -7,13 +7,22 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Planning
-
 ### Site goals
+Inform visitors about Sotis the lifecoach, who he is, how he works and what he offers. Give visitors practical information such as address and contact information, prices and session lengths. Convince visitors to book an appointment with Sotis the lifecoach and provide a way to book this appointment. The website waims to be responsive across all screen sizes, with user friendly navigation and present information in a clear consistent way without overinforming. 
 
 ### User stories
-#### As a ... 
-
-#### As a ... 
+#### As a person interested in seeing a lifecoach, I want to:
+-  find information about Sotis the lifecoach and how he works, so that I can decide if I consider booking an appointment with him.
+#### As a potential client, I want to:
+- find information about what Sotis can offer me, how much it would cost and where it would be, so that I can decide if I want to book an appointment with him.
+- be able to contact Sotis, so that I can ask questions about anything unclear, so that I can decide if I still want to book an appoitnment with him.
+- read reviews from previous clients, to decide if I also want to book an appointment with Sotis.
+- find a way to book an appointment, so that I can do this in an easy way on the website.
+#### As a confirmed client, I want to:
+- find contact information, so that I can contact Sotis about any matter regarding my appointment.
+#### As a site owner, I want to:
+- get word around about a special cat offering life coach services, so that I gain awareness (PR, marketing).
+- convince visitors to book an appointment, so that I grow my business and help clients.
 
 #### Tasks to achieve user stories (or in testing section?)
 
