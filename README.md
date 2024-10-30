@@ -6,6 +6,23 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
+## Planning
+
+### Site goals
+
+### User stories
+#### As a ... 
+
+#### As a ... 
+
+#### Tasks to achieve user stories (or in testing section?)
+
+### Wireframes
+
+### Color schemes
+### Fonts
+### Logos and images
+
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
