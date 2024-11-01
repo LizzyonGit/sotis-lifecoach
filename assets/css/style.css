@@ -50,6 +50,8 @@ h1, h2, h3 {
     color: white;
     min-height: 150px;
     text-align: center;
+    display: flex;
+    align-items: center;
     
 }
 
