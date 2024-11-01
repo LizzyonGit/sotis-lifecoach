@@ -44,7 +44,7 @@ h1, h2, h3 {
 }
 
 /*Testimonials section styles*/
-#carousel-item {
+.carousel-item.active {
     padding: 1rem 5rem;
     background-color: var(--highlight-color);
     color: white;
