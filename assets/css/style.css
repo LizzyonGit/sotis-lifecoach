@@ -44,9 +44,12 @@ h1, h2, h3 {
 }
 
 /*Testimonials section styles*/
+
+#testimonials-carousel {
+    background-color: var(--highlight-color);
+}
 .carousel-item.active {
     padding: 1rem 5rem;
-    background-color: var(--highlight-color);
     color: white;
     min-height: 150px;
     text-align: center;
@@ -54,6 +57,15 @@ h1, h2, h3 {
     align-items: center;
     
 }
+
+.carousel-inner {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
 
 
 
