@@ -13,10 +13,16 @@
 
 /*Header styles*/
 #hero {
+    background: url(../img/hero.jpg) 75% 35% var(--highlight-color);
+    min-height:500px;
     
 }
 
 #hero-quote {
     font-family: var(--secondary-font);
     background-color: rgba(00,00,00,0.5);
+    color: var(--secondary-color);
 }
+
+/*media queries*/
+
