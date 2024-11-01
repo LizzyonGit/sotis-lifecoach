@@ -38,10 +38,22 @@ h1, h2, h3 {
     
 }
 
-/*About section styles*/
+/*About and Philosophy section styles*/
 #cat-notebook {
     border-radius: 50%;
 }
+
+/*Testimonials section styles*/
+.carousel-item {
+    padding: 1rem 5rem;
+    background-color: var(--highlight-color);
+    color: white;
+    min-height: 150px;
+    text-align: center;
+    
+}
+
+
 
 /*media queries*/
 
