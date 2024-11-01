@@ -35,10 +35,13 @@ h1, h2, h3 {
 /*Section styles*/
 
 .section {
-    margin: 1rem;
-    padding: 1rem;
+    
 }
 
+/*About section styles*/
+#cat-notebook {
+    border-radius: 50%;
+}
 
 /*media queries*/
 
