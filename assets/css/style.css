@@ -34,9 +34,7 @@ h1, h2, h3 {
 
 /*Section styles*/
 
-.section {
-    
-}
+
 
 /*About and Philosophy section styles*/
 #cat-notebook {
@@ -50,15 +48,11 @@ h1, h2, h3 {
 }
 .carousel-item.active {
     padding: 1rem 5rem;
-    color: white;
     min-height: 150px;
-    text-align: center;
-    display: flex;
-    align-items: center;
     
 }
 
-.carousel-inner {
+.carousel-item.active, .carousel-inner {
     display: flex;
     align-items: center;
     color: white;
