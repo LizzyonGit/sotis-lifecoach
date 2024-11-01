@@ -32,5 +32,13 @@ h1, h2, h3 {
     color: white;
 }
 
+/*Section styles*/
+
+.section {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
 /*media queries*/
 
