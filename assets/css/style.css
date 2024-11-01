@@ -11,6 +11,15 @@
     --highlight-color-light: #1B4353; /* charcoal */
 }
 
+/*Global styles*/
+body {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+}
+
 /*Header styles*/
 #hero {
     background: url(../img/hero.jpg) 75% 35% var(--highlight-color);
@@ -19,9 +28,8 @@
 }
 
 #hero-quote {
-    font-family: var(--secondary-font);
     background-color: rgba(00,00,00,0.5);
-    color: var(--secondary-color);
+    color: white;
 }
 
 /*media queries*/
