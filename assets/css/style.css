@@ -64,4 +64,23 @@ h1, h2, h3 {
 
 
 /*media queries*/
+/*Max Mobile L screen, reduce padding in testimonial carousel as it gets cramped*/
+@media screen and (max-width: 426px) {
+    .carousel-item.active {
+        padding: 1rem, 3rem;
+}
+}
+/*Max Mobile M screen, reduce padding in testimonial carousel as it gets cramped*/
 
+@media screen and (max-width: 376px) {
+    .carousel-item.active {
+        padding: 1rem 2rem;
+}
+}
+/*Max Mobile S screen, reduce padding in testimonial carousel as it gets cramped*/
+
+@media screen and (max-width: 320px) {
+    .carousel-item.active {
+        padding: 1rem 1.5rem;
+}
+}
