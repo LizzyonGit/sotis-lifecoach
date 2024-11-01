@@ -10,3 +10,13 @@
     --highlight-color: #173753; /* dark blue */
     --highlight-color-light: #1B4353; /* charcoal */
 }
+
+/*Header styles*/
+#hero {
+    
+}
+
+#hero-quote {
+    font-family: var(--secondary-font);
+    background-color: rgba(00,00,00,0.5);
+}
