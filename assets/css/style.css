@@ -57,7 +57,8 @@ h1, h2, h3 {
     
 }
 
-#testimonials-carousel .carousel-item.active, #testimonials-carousel .carousel-inner {
+#testimonials-carousel .carousel-item.active, 
+#testimonials-carousel .carousel-inner {
     display: flex;
     align-items: center;
     color: white;
