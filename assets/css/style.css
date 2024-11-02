@@ -5,31 +5,31 @@
 :root {
     --primary-font: Raleway, sans-serif;
     --secondary-font: "Montserrat Alternates", cursive;
-    --primary-color: #55CBD2; /* middle blue */
-    --secondary-color: #C5FFF1; /* bright blue */
-    --highlight-color: #173753; /* dark blue */
-    --highlight-color-light: #1B4353; /* charcoal */
+    --highlight-color: #55CBD2; /* middle blue */
+    --highlight-light-color: #C5FFF1; /* bright blue */
+    --primary-color: #173753; /* dark blue */
+    --secondary-color: #1B4353; /* charcoal */
 }
 
 /*Global styles*/
 body {
     font-family: var(--primary-font);
-    color: var(--highlight-color);
+    color: var(--primary-color);
 }
 
 h1, h2, h3 {
     font-family: var(--secondary-font);
-    color: var(--highlight-color-light);
+    color: var(--secondary-color);
 }
 /*Navbar styles*/
 #navbar {
-    background-color: var(--highlight-color);
+    background-color: var(--primary-color);
 }
 
 
 /*Header styles*/
 #hero {
-    background: url(../img/hero.jpg) 75% 35% var(--highlight-color);
+    background: url(../img/hero.jpg) 75% 35% var(--primary-color);
     min-height:500px;
     
 }
@@ -53,7 +53,7 @@ h1, h2, h3 {
 /*Testimonials section styles*/
 
 #testimonials-carousel {
-    background-color: var(--secondary-color);
+    background-color: var(--highlight-light-color);
 }
 #testimonials-carousel .carousel-item.active {
     padding: 1rem 5rem;
@@ -65,7 +65,7 @@ h1, h2, h3 {
 #testimonials-carousel .carousel-inner {
     display: flex;
     align-items: center;
-    color: var(--highlight-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3 {
 
 /*Footer styles*/
 #contact {
-    background-color: var(--highlight-color);
+    background-color: var(--primary-color);
 }
 
 #contact * {
