@@ -51,13 +51,13 @@ h1, h2, h3 {
 #testimonials-carousel {
     background-color: var(--highlight-color);
 }
-.carousel-item.active {
+#testimonials-carousel .carousel-item.active {
     padding: 1rem 5rem;
     min-height: 150px;
     
 }
 
-.carousel-item.active, .carousel-inner {
+#testimonials-carousel .carousel-item.active, #testimonials-carousel .carousel-inner {
     display: flex;
     align-items: center;
     color: white;
