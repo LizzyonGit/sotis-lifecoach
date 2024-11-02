@@ -94,21 +94,22 @@ h1, h2, h3 {
 /*media queries*/
 /*Max Mobile L screen, reduce padding in testimonial carousel as it gets cramped*/
 @media screen and (max-width: 426px) {
-    .carousel-item.active {
+    #testimonials-carousel .carousel-item.active {
         padding: 1rem, 3rem;
 }
 }
-/*Max Mobile M screen, reduce padding in testimonial carousel as it gets cramped*/
+/*Max Mobile M screen, reduce padding in testimonial carousel as it gets cramped, larger min-height to keep all reviews on same height*/
 
 @media screen and (max-width: 376px) {
-    .carousel-item.active {
-        padding: 1rem 2rem;
+    #testimonials-carousel .carousel-item.active {
+        padding: 1rem 1.5rem;
+        min-height: 168px;
 }
 }
 /*Max Mobile S screen, reduce padding in testimonial carousel as it gets cramped*/
 
 @media screen and (max-width: 320px) {
-    .carousel-item.active {
-        padding: 1rem 1.5rem;
+    #testimonials-carousel .carousel-item.active {
+        padding: 1rem 1.2rem;
 }
 }
