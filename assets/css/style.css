@@ -14,10 +14,12 @@
 /*Global styles*/
 body {
     font-family: var(--primary-font);
+    color: var(--highlight-color);
 }
 
 h1, h2, h3 {
     font-family: var(--secondary-font);
+    color: var(--highlight-color-light);
 }
 /*Navbar styles*/
 #navbar {
@@ -34,6 +36,8 @@ h1, h2, h3 {
 
 #hero-quote {
     background-color: rgba(00,00,00,0.5);
+}
+#hero-quote h2 {
     color: white;
 }
 
