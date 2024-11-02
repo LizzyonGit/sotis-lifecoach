@@ -49,7 +49,7 @@ h1, h2, h3 {
 /*Testimonials section styles*/
 
 #testimonials-carousel {
-    background-color: var(--highlight-color);
+    background-color: var(--secondary-color);
 }
 #testimonials-carousel .carousel-item.active {
     padding: 1rem 5rem;
@@ -61,7 +61,7 @@ h1, h2, h3 {
 #testimonials-carousel .carousel-inner {
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--highlight-color);
     text-align: center;
 }
 
