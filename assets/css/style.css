@@ -89,6 +89,13 @@ h1, h2, h3 {
     background-color: var(--highlight-light-color);
 }
 
+/*Book page styles*/
+
+/*color of option choices and prefilled "Select" in the form*/
+form option, form .form-select {
+    color: var(--primary-color);
+    }
+
 /*Footer styles*/
 #contact {
     background-color: var(--primary-color);
