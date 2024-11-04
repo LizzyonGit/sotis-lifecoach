@@ -41,7 +41,7 @@ h1, h2, h3 {
     background-color: var(--primary-color);
 }
 
-/*Header styles*/
+/*Header styles Home*/
 #hero {
     background: url(../img/hero.jpg) 75% 35% var(--primary-color);
     min-height:500px;
@@ -83,7 +83,11 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/*What I offer page styles*/
 
+.card-footer {
+    background-color: var(--highlight-light-color);
+}
 
 /*Footer styles*/
 #contact {
