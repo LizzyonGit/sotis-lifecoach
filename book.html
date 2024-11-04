@@ -58,48 +58,49 @@
     </header>
     <!--Main with form-->
     <main>
-      <form class="row g-3">
+      <form class="row g-3 mx-3 mb-3">
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          <label for="first-name" class="form-label">First name</label>
+          <input type="text" class="form-control" id="first-name" name="first-name" required>
         </div>
         <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
+          <label for="last-name" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="last-name" name="last-name" required>
         </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="col-md-6">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="number" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="col-md-6">
+          <label for="session-type" class="form-label">Session type</label>
+          <select id="session-type" class="form-select" name="session-type" required>
+            <option selected value="">Select...</option>
+            <option value="Talking">Talking</option>
+            <option value="Exercise">Exercise</option>
+            <option value="Walking">Walking</option>
+            <option value="Combination">Combination</option>
           </select>
         </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
+        <div class="col-md-6">
+          <label for="appointment-date" class="form-label">Preferred date and time</label>
+          <select id="appointment-date" class="form-select" name="appointment-date" required>
+            <option selected value="">Select...</option>
+            <option value="2/12 14.00">December 2, 14.00</option>
+            <option value="3/12 12.00">December 3, 12.00</option>
+            <option value="6/12 14.00">December 6, 14.00</option>
+            <option value="7/12 12.00">December 7, 12.00</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" required rows="3">Leave me a message :)</textarea>
         </div>
         <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" class="btn btn-primary custom-button">Send</button>
         </div>
       </form>
     </main>
