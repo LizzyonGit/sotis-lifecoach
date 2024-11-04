@@ -98,6 +98,9 @@ h1, h2, h3 {
     color: white;
 }
 
+#social-links i {
+    margin-right:15px;
+}
 
 /*media queries*/
 /*Max Mobile L screen, reduce padding in testimonial carousel as it gets cramped*/
