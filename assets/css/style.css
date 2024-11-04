@@ -21,20 +21,24 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
 }
-/*Navbar styles*/
-#navbar {
-    background-color: var(--primary-color);
-}
 
-#navbar .btn {
+/*Buttons*/
+
+.custom-button {
     background-color: var(--highlight-color);
     color: var(--primary-color); 
 }
 
-#navbar .btn:hover {
+.custom-button:hover {
     background-color: var(--secondary-color);
     color: var(--highlight-light-color); 
     border: 1px solid var(--highlight-light-color);
+}
+
+
+/*Navbar styles*/
+#navbar {
+    background-color: var(--primary-color);
 }
 
 /*Header styles*/
