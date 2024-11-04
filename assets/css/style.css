@@ -109,6 +109,10 @@ form option, form .form-select {
     margin-right:15px;
 }
 
+#social-links i:hover {
+    color: var(--highlight-color);
+}
+
 /*media queries*/
 /*Max Mobile L screen, reduce padding in testimonial carousel as it gets cramped*/
 @media screen and (max-width: 426px) {
