@@ -135,3 +135,30 @@ form option, form .form-select {
         padding: 1rem 1.2rem;
 }
 }
+
+/*Card text in What I offer needs to have different heights depending on screen size to make all cards the same height */
+
+/*Card text min height for screens between 768 and 991px*/
+@media screen and (min-width: 768px) {
+    #offer .card-text {
+        min-height: 120px;
+}
+}
+/*Card text min height for screens between 992 and 1199px*/
+@media screen and (min-width: 992px) {
+    #offer .card-text {
+        min-height: 192px;
+}
+}
+/*Card text min height for screens between 1200 and 1399px*/
+@media screen and (min-width: 1200px) {
+    #offer .card-text {
+        min-height: 144px;
+}
+}
+/*Card text min height for screens 1400px and up*/
+@media screen and (min-width: 1400px) {
+    #offer .card-text {
+        min-height: 120px;
+}
+}
