@@ -84,8 +84,11 @@ h1, h2, h3 {
 }
 
 /*What I offer page styles*/
+#offer .card {
+    margin-bottom: 1.5rem;
+}
 
-.card-footer {
+#offer .card-footer {
     background-color: var(--highlight-light-color);
     margin-bottom:0;
 }
