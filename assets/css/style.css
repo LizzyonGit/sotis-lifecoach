@@ -87,6 +87,7 @@ h1, h2, h3 {
 
 .card-footer {
     background-color: var(--highlight-light-color);
+    margin-bottom:0;
 }
 
 /*Book page styles*/
