@@ -1,14 +1,17 @@
-# Love Running
+# Sotis lifecoach
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Sotis is a lifecoach, and this is his website. The website targets people interested in getting a lifecoach. The website shows who Sotis is, how he works and what he offers. Visitors can read what sessions entail and how much they cost, the images give more context and they can read about what previous clients think of their sessions with Sotis. The contact information and social media links give the visitor the possibility to ask questions or look for more information about Sotis beyond his website. The visitor has the possibility to book an appointment via a form on the website.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
+[Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
+
 ## Planning
 ### Site goals
-Inform visitors about Sotis the lifecoach, who he is, how he works and what he offers. Give visitors practical information such as address and contact information, prices and session lengths. Convince visitors to book an appointment with Sotis the lifecoach and provide a way to book this appointment. The website waims to be responsive across all screen sizes, with user friendly navigation and present information in a clear consistent way without overinforming. 
+- Inform visitors about Sotis the lifecoach, who he is, how he works and what he offers. 
+- Give visitors practical information such as address and contact information, prices and session lengths. 
+- Convince visitors to book an appointment with Sotis the lifecoach and provide a way to book this appointment. 
+- The website aims to be responsive across all screen sizes, with user friendly navigation and present information in a clear consistent way without overinforming. 
 
 ### User stories
 #### As a person interested in seeing a lifecoach, I want to:
@@ -26,11 +29,12 @@ Inform visitors about Sotis the lifecoach, who he is, how he works and what he o
 
 #### Tasks to achieve user stories (or in testing section?)
 
-### Wireframes
+### Design
+#### Wireframes
 
-### Color schemes
-### Fonts
-### Logos and images
+#### Color schemes
+#### Fonts
+#### Logos and images
 
 ## Features 
 
