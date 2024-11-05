@@ -144,16 +144,22 @@ form option, form .form-select {
         min-height: 120px;
 }
 }
-/*Card text min height for screens between 992 and 1199px*/
+/*Card text min height for screens between 992 and 1199px, the card footer needs to have more height than other screen sizes to be equal for all*/
 @media screen and (min-width: 992px) {
     #offer .card-text {
         min-height: 192px;
 }
+    #offer .card-footer {
+        min-height: 89px;
+    }
 }
-/*Card text min height for screens between 1200 and 1399px*/
+/*Card text min height for screens between 1200 and 1399px, fix card footer back to auto length as they are all the same height*/
 @media screen and (min-width: 1200px) {
     #offer .card-text {
         min-height: 144px;
+}
+    #offer .card-footer {
+        min-height: auto;
 }
 }
 /*Card text min height for screens 1400px and up*/
