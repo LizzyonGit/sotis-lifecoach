@@ -63,31 +63,34 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The langing page has a hero image of Sotis, looking into the camera, with an appropriate quote about cats and life. 
-  - This section hopes to grasp the user's attention and give a positive feeling.
+  - The langing page has a hero image of Sotis, looking into the camera, with an appropriate quote about cats and life. This section hopes to grasp the user's attention and give a positive feeling.
 
 ![Landing page image](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __About section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The About section gives an introduction to who Sotis is. For a user wanting to know more about Sotis, this is important information. The insight to who he is helps making a decision on whether or not to book an appointment.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+
+- __Image__
+- The image between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user it is part of gaining more information about Sotis.
 
 - __Philosophy section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The Philosophy section gives an insight in how Sotis works and what his methods and convictions are. This gives the user more information about his professionality and helps in making the decision to book an appointment or not.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Philosophy](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __Testimonials section__
 
+- The Testimonials section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
+
+![Testimnonials](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
 - __The footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes an address, email address, phone number and links to X, Facebook and Instagram. The links will open to a new tab to allow easy navigation for the user. The address and contact information are important for the user to know where Sotis works, and the possibility to contact him is important to gain trust. The links to the social media are important so the user can get more information and context outside the website, potentially also seeing how trustworthy Sotis is by checking followers and comments on social media.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
