@@ -74,7 +74,7 @@ In this section, you should go over the different parts of your project, and des
 ![About](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Image__
-- The image between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user it is part of gaining more information about Sotis.
+- The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user it is part of gaining more information about Sotis and seeing him at work.
 
 - __Philosophy section__
 
@@ -86,7 +86,7 @@ In this section, you should go over the different parts of your project, and des
 
 - The Testimonials section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
 
-![Testimnonials](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Testimonials](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The footer__ 
 
