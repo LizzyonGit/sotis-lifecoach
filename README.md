@@ -68,19 +68,21 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __About Section__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Philosophy section__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
+- __Testimonials section__
 
 - __The Footer__ 
 
@@ -89,14 +91,14 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __The What I offer page__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __The Book page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
@@ -108,7 +110,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- Videorecordings (short parts) of sessions added to the page What I offer,
+- A possibility to sign up to a newsletter, where Sotis gives lifecoach tips for example,
+- A separate page with lifecoach tips,
+- A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
+- A custom logo.
 
 ## Testing 
 
