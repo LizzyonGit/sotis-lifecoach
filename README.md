@@ -56,17 +56,17 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - All three pages have a navigation bar with "Sotis lifecoach" and "Home" linking to the index.html page, "About", "Philosophy" and "Testimonials" linking to the corresponding sections on the index.html page, "What I offer" linking to the what-i-offer.html page and the "Book" button linking to the book.html page. The page you are currently on is lighting up for the "Home" and "What I offer" pages.
+  - The navigation bar allows the user to easily navigate from page to page and to specific sections on a page. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Navigation bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The langing page has a hero image of Sotis, looking into the camera, with an appropriate quote about cats and life. 
+  - This section hopes to grasp the user's attention and give a positive feeling.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing page image](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __About section__
 
@@ -114,7 +114,8 @@ In addition, you may also use this section to discuss plans for additional featu
 - A possibility to sign up to a newsletter, where Sotis gives lifecoach tips for example,
 - A separate page with lifecoach tips,
 - A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
-- A custom logo.
+- A custom logo,
+- A sticky navbar specifically for mobile screens.
 
 ## Testing 
 
