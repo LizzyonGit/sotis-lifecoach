@@ -98,19 +98,19 @@ In this section, you should go over the different parts of your project, and des
 
 - __The What I offer page__
 
-  - The page What I offer has an introduction text with a button which links to the book.html page, and displays the four different sessions you can book with Sotis in card format. Each card has a title, description, related image and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book. 
+  - The page What I offer has an introductary header text with a button which links to the book.html page, and displays the four different sessions you can book with Sotis in card format. Each card has a title, description, related image and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book.
+   
+   Project file: what-i-offer.html
 
 ![What I offer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Book page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - The Book page consists of an introductary header text and a form with the fields First name, Last name, Email, Phone, Session type, Preferred date and time, and a Send button. All fields are required to be able to submit the form. The Book page is crucial for the user and site owner, as it allows to book an appointment with Sotis.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  Project file: book.html
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Book](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ### Features left to implement
 
@@ -119,7 +119,8 @@ In addition, you may also use this section to discuss plans for additional featu
 - A separate page with lifecoach tips,
 - A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
 - A custom logo,
-- A sticky navbar specifically for mobile screens.
+- A sticky navbar specifically for mobile screens,
+- A testimonials section with small profile pictures, and possibly several testimonials at once for large screens.
 
 ## Testing 
 
