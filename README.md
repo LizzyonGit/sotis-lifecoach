@@ -52,9 +52,9 @@ All used images are my own. I have not created any logos.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features
+### Existing features
 
-- __Navigation Bar__
+- __Navigation bar__
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
@@ -68,7 +68,7 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __About Section__
+- __About section__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
@@ -84,7 +84,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Testimonials section__
 
-- __The Footer__ 
+- __The footer__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
@@ -108,7 +108,7 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
+### Features left to implement
 
 - Videorecordings (short parts) of sessions added to the page What I offer,
 - A possibility to sign up to a newsletter, where Sotis gives lifecoach tips for example,
@@ -127,7 +127,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
+### Validator testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
@@ -142,7 +142,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Technologies used
 ### Languages
-### Frameworks - Libraries - Programs Used
+### Frameworks - libraries - programs used
 
 ## Deployment
 
