@@ -73,8 +73,10 @@ In this section, you should go over the different parts of your project, and des
 
 ![About](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Image__
+- __Image with caption__
 - The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user it is part of gaining more information about Sotis and seeing him at work.
+
+![Image with caption](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Philosophy section__
 
@@ -96,10 +98,9 @@ In this section, you should go over the different parts of your project, and des
 
 - __The What I offer page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The page What I offer has an introduction text with a button which links to the book.html page, and displays the four different sessions you can book with Sotis in card format. Each card has a title, description, related image and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![What I offer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Book page__
 
