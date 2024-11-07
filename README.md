@@ -196,7 +196,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Inspiration from CI walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running
 - Inspiration from https://themewagon.github.io/Pilates/
 - For getting a color scheme and checking color contrast: https://coolors.co
-- 
+- Grammarly spellschecker
 
 ## Acknowledgments
 - 
