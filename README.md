@@ -190,9 +190,10 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 
 ### Resources
 - Bootstrap documentation
+- w3schools.com for looking up semantic HTML
 - Stackoverflow led me in the right direction sometimes, but could not specifically answer my questions
 - For font pairing: https://approval.studio/blog/how-to-combine-fonts/
-- Inspiration from CIs walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running
+- Inspiration from CI walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running
 - Inspiration from https://themewagon.github.io/Pilates/
 - For getting a color scheme and checking color contrast: https://coolors.co
 - 
