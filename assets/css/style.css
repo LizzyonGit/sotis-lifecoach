@@ -118,7 +118,7 @@ form option, form .form-select {
 /*Max Mobile L screen, reduce padding in testimonial carousel as it gets cramped*/
 @media screen and (max-width: 426px) {
     #testimonials-carousel .carousel-item.active {
-        padding: 1rem, 3rem;
+        padding: 1rem 3rem;
 }
 }
 /*Max Mobile M screen, reduce padding in testimonial carousel as it gets cramped, larger min-height to keep all reviews on same height*/
