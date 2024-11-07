@@ -120,7 +120,7 @@ In this section, you should go over the different parts of your project, and des
 - A possibility to sign up to a newsletter, where Sotis gives lifecoach tips for example,
 - A separate page with lifecoach tips,
 - A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
-- A custom logo,
+- A custom logo, and matching favicon,
 - A sticky navbar specifically for mobile screens,
 - A testimonials section with small profile pictures, and possibly several testimonials at once for large screens.
 
