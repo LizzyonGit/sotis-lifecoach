@@ -41,6 +41,10 @@ h1, h2, h3 {
     background-color: var(--primary-color);
 }
 
+#navbar .navbar-brand {
+    text-transform: uppercase;
+}
+
 /*Header styles Home*/
 #hero {
     background: url(../img/hero.jpg) 75% 35% var(--primary-color);
