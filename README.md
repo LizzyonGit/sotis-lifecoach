@@ -161,6 +161,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 - Google fonts for my font pair
 - Fontawesome for my icons
 - TinyPNG for compressing image size
+- Paint for resizing and cropping images
 - Responsinator.com for checking responsiveness
 
 ## Deployment
