@@ -43,7 +43,7 @@ Sotis is a lifecoach, and this is his website. The website targets people intere
 I searched on internet for lifecoach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I really liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/55cbd2-c5fff1-173753-1b4353 where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753, #1B4353.
 
 #### Fonts
-I went on Google fonts and set the filter to "Calm", browsing throught the results this one stuck out to me: Montserrat Alternates. I liked the "E" being different than the other fonts. For a pairing, I couldn't find anything on some of the font pairing sites, but when I just googled font pair with "Montserrat Alternates", this blog came up (https://approval.studio/blog/how-to-combine-fonts/#:~:text=Montserrat%20Alternates%20%2B%20Raleway,-In%20this%20case&text=Raleway%20complements%20it%3B%20being%20quite,allows%20one%20to%20enjoy%20it.) and I decided to go with the suggested font Raleway.
+I went on Google fonts and set the filter to "Calm", browsing throught the results this one stuck out to me: Montserrat Alternates. I liked the "E" being different than the other fonts. For a pairing, I couldn't find anything on some of the font pairing sites, but when I just googled font pair with "Montserrat Alternates", this blog came up (https://approval.studio/blog/how-to-combine-fonts/), where they argued for the pair Montserrat Alternates and Raleway, so I decided to go with that.
 
 #### Logos and images
 All used images are my own. I have not created any logos.
@@ -161,7 +161,8 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 - Google fonts for my font pair
 - Fontawesome for my icons
 - TinyPNG for compressing image size
-- 
+- Responsinator.com for checking responsiveness
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -186,10 +187,15 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 
 ### Resources
 - Bootstrap documentation
-- Stackoverflow but did not find answer
-- For font pairing: 
+- Stackoverflow lead me in the right direction sometimes, but not specifically answered my questions
+- For font pairing: https://approval.studio/blog/how-to-combine-fonts/
+- Inspiration from CIs walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running
+- Inspiration from https://themewagon.github.io/Pilates/
+- For getting a color scheme: https://coolors.co
+- 
 
 ## Acknowledgments
+- 
 
 ## Other General Project Advice
 
