@@ -1,6 +1,6 @@
-# Sotis lifecoach
+# Sotis life coach
 
-Sotis is a lifecoach, and this is his website. The website targets people interested in getting a lifecoach. The website shows who Sotis is, how he works and what he offers. Visitors can read what sessions entail and how much they cost, the images give more context and they can read about what previous clients think of their sessions with Sotis. The contact information and social media links give the visitor the possibility to ask questions or look for more information about Sotis beyond his website. The visitor can book an appointment via a form on the website.
+Sotis is a life coach, and this is his website. The website targets people interested in getting a life coach. The website shows who Sotis is, how he works and what he offers. Visitors can read what sessions entail and how much they cost, the images give more context and they can read about what previous clients think of their sessions with Sotis. The contact information and social media links give the visitor the possibility to ask questions or look for more information about Sotis beyond his website. The visitor can book an appointment via a form on the website.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -8,14 +8,14 @@ Sotis is a lifecoach, and this is his website. The website targets people intere
 
 ## Planning
 ### Site goals
-- Inform visitors about Sotis the lifecoach, who he is, how he works and what he offers. 
+- Inform visitors about Sotis the life coach, who he is, how he works and what he offers. 
 - Give visitors practical information such as address and contact information, prices and session lengths. 
-- Convince visitors to book an appointment with Sotis the lifecoach and provide a way to book this appointment. 
+- Convince visitors to book an appointment with Sotis the life coach and provide a way to book this appointment. 
 - The website aims to be responsive across all screen sizes, with user-friendly navigation and present information in a clear consistent way without overinforming. 
 
 ### User stories
-#### As a person interested in seeing a lifecoach, I want to:
--  find information about Sotis the lifecoach and how he works, so that I can decide if I consider booking an appointment with him.
+#### As a person interested in seeing a life coach, I want to:
+-  find information about Sotis the life coach and how he works, so that I can decide if I consider booking an appointment with him.
 #### As a potential client, I want to:
 - find information about what Sotis can offer me, how much it would cost and where it would be, so that I can decide if I want to book an appointment with him.
 - be able to contact Sotis, so that I can ask questions about anything unclear, so that I can decide if I still want to book an appointment with him.
@@ -40,7 +40,7 @@ Sotis is a lifecoach, and this is his website. The website targets people intere
 #### Wireframes
 
 #### Color schemes
-I searched the internet for lifecoach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/55cbd2-c5fff1-173753-1b4353 where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
+I searched the internet for life coach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/55cbd2-c5fff1-173753-1b4353 where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
 My main background is white, as I don't want to overdo it with a blue background. Also on the hero image, I used a neutral transparent black background with white text to not intervene with the image. 
 For color contrast, the used text color-background combinations get a score of 6.36 and up.
 
@@ -58,7 +58,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation bar__
 
-  - All three pages have a navigation bar with "Sotis lifecoach" and "Home" linking to the index.html page, "About", "Philosophy" and "Testimonials" linking to the corresponding sections on the index.html page, "What I offer" linking to the what-i-offer.html page and the "Book" button linking to the book.html page. The page you are currently on is lighting up for the "Home" and "What I offer" pages.
+  - All three pages have a navigation bar with "Sotis life coach" and "Home" linking to the index.html page, "About", "Philosophy" and "Testimonials" linking to the corresponding sections on the index.html page, "What I offer" linking to the what-i-offer.html page and the "Book" button linking to the book.html page. The page you are currently on is lighting up for the "Home" and "What I offer" pages.
   - The navigation bar allows the user to easily navigate from page to page and to specific sections on a page. 
 
 ![Navigation bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
@@ -117,8 +117,8 @@ In this section, you should go over the different parts of your project, and des
 ### Features left to implement
 
 - Video recordings (short parts) of sessions added to the page What I offer,
-- A possibility to sign up for a newsletter, where Sotis gives lifecoach tips for example,
-- A separate page with lifecoach tips,
+- A possibility to sign up for a newsletter, where Sotis gives life coach tips for example,
+- A separate page with life coach tips,
 - A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
 - A custom logo, and matching favicon,
 - A sticky navbar specifically for mobile screens,
