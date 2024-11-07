@@ -71,15 +71,19 @@ h1, h2, h3 {
     background-color: var(--highlight-light-color);
 }
 
-/*the padding ensures the controls are visible, padding on .carousel-item-next ensures the text is displayed the same way as in the active carousel item*/
-#testimonials-carousel .carousel-item.active, #testimonials-carousel .carousel-item-next {
+/*the padding ensures the controls are visible, padding on .carousel-item-next and -prev ensures the text is displayed the same way as in the active carousel item*/
+#testimonials-carousel .carousel-item.active, 
+#testimonials-carousel .carousel-item-next,
+#testimonials-carousel .carousel-item-prev {
     padding: 1rem 5rem;
     min-height: 150px;
     
 }
 
 #testimonials-carousel .carousel-item.active, 
-#testimonials-carousel .carousel-inner {
+#testimonials-carousel .carousel-inner,
+#testimonials-carousel .carousel-item-next,
+#testimonials-carousel .carousel-item-prev {
     display: flex;
     align-items: center;
     color: var(--primary-color);
@@ -119,14 +123,18 @@ form option, form .form-select {
 /*media queries*/
 /*Max Mobile L screen, reduce padding in testimonial carousel as text gets cramped*/
 @media screen and (max-width: 426px) {
-    #testimonials-carousel .carousel-item.active, #testimonials-carousel .carousel-item-next {
+    #testimonials-carousel .carousel-item.active, 
+    #testimonials-carousel .carousel-item-next,
+    #testimonials-carousel .carousel-item-prev {
         padding: 1rem 3rem;
 }
 }
 /*Max Mobile M screen, reduce padding in testimonial carousel as text gets cramped, larger min-height to keep all reviews on same height*/
 
 @media screen and (max-width: 376px) {
-    #testimonials-carousel .carousel-item.active, #testimonials-carousel .carousel-item-next {
+    #testimonials-carousel .carousel-item.active, 
+    #testimonials-carousel .carousel-item-next,
+    #testimonials-carousel .carousel-item-prev {
         padding: 1rem 1.5rem;
         min-height: 168px;
 }
@@ -134,7 +142,9 @@ form option, form .form-select {
 /*Max Mobile S screen, reduce padding in testimonial carousel as text gets cramped*/
 
 @media screen and (max-width: 320px) {
-    #testimonials-carousel .carousel-item.active, #testimonials-carousel .carousel-item-next {
+    #testimonials-carousel .carousel-item.active, 
+    #testimonials-carousel .carousel-item-next,
+    #testimonials-carousel .carousel-item-prev {
         padding: 1rem 1.2rem;
 }
 }
