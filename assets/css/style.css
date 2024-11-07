@@ -79,7 +79,7 @@ h1, h2, h3 {
     min-height: 150px;
     
 }
-
+/*Vertically centers the text as well as text align center and primary color */
 #testimonials-carousel .carousel-item.active, 
 #testimonials-carousel .carousel-inner,
 #testimonials-carousel .carousel-item-next,
