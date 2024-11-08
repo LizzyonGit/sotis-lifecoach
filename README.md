@@ -51,7 +51,7 @@ Sotis is a life coach, and this is his website. The website targets people inter
 
 #### Wireframes
 
-Below are my initial wireframes per page for mobile, tablet and laptop screen sizes.
+Below are my initial wireframes per page for mobile, tablet and laptop screen sizes. I used Figma to create them.
 
 <details>
     <summary>Page 1 - Home</summary>
