@@ -55,15 +55,21 @@ Below are my initial wireframes per page for mobile, tablet and laptop screen si
 
 <details>
     <summary>Page 1 - Home</summary>
+
     ![Page 1 Wireframe for mobile, tablet and laptop](docs/wireframes/wireframe-home.png)
+
 </details>
 <details>
     <summary>Page 2 - What I offer</summary>
+
     ![Page 2 Wireframe for mobile, tablet and laptop](docs/wireframes/wireframe-what-i-offer.png)
+
 </details>
 <details>
     <summary>Page 3 - Book</summary>
+
     ![Page 3 Wireframe for mobile, tablet and laptop](docs/wireframes/wireframe-book.png)
+    
 </details>
 
 #### Color schemes
