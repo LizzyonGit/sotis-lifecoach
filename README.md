@@ -51,6 +51,21 @@ Sotis is a life coach, and this is his website. The website targets people inter
 
 #### Wireframes
 
+Below are my initial wireframes per page for mobile, tablet and laptop screen sizes.
+
+<details>
+    <summary>Page 1 - Home</summary>
+    ![Page 1 Wireframe for mobile, tablet and laptop](docs/wireframes/wireframe-home.png)
+</details>
+<details>
+    <summary>Page 2 - What I offer</summary>
+    ![Page 2 Wireframe for mobile, tablet and laptop](docs/wireframes/wireframe-what-i-offer.png)
+</details>
+<details>
+    <summary>Page 3 - Book</summary>
+    ![Page 3 Wireframe for mobile, tablet and laptop](docs/wireframes/wireframe-book.png)
+</details>
+
 #### Color schemes
 
 I searched the internet for life coach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/ where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
