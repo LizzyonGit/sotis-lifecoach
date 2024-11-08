@@ -7,27 +7,38 @@ Sotis is a life coach, and this is his website. The website targets people inter
 [Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
 
 ## Planning
+
 ### Site goals
+
 - Inform visitors about Sotis the life coach, who he is, how he works and what he offers. 
 - Give visitors practical information such as address and contact information, prices and session lengths. 
 - Convince visitors to book an appointment with Sotis the life coach and provide a way to book this appointment. 
 - The website aims to be responsive across all screen sizes, with user-friendly navigation and present information in a clear consistent way without overinforming. 
 
 ### User stories
+
 #### As a person interested in seeing a life coach, I want to:
+
 -  find information about Sotis the life coach and how he works, so that I can decide if I consider booking an appointment with him.
+
 #### As a potential client, I want to:
+
 - find information about what Sotis can offer me, how much it would cost and where it would be, so that I can decide if I want to book an appointment with him.
 - be able to contact Sotis, so that I can ask questions about anything unclear, so that I can decide if I still want to book an appointment with him.
 - read reviews from previous clients, to decide if I also want to book an appointment with Sotis.
 - find a way to book an appointment, so that I can do this easily on the website.
+
 #### As a confirmed client, I want to:
+
 - find contact information, so that I can contact Sotis about any matter regarding my appointment.
+
 #### As a site owner, I want to:
+
 - get word around about a special cat offering life coach services, so that I build brand awareness.
 - convince visitors to book an appointment, so that I grow my business and help clients.
 
 #### Tasks to achieve user stories (or in testing section?)
+
 - create informative sections with background information about Sotis and according to which philosophy he works, with an image,
 - create informative cards about the different sessions Sotis can offer the client and what these cost, how long they take and what they entail, with a suitable image,
 - create a form where a client can choose a session and a date and time to book this session, along with filling in name, email, phone and a message,
@@ -37,17 +48,24 @@ Sotis is a life coach, and this is his website. The website targets people inter
 - create a header on the Home page with a quote over a Hero image.
 
 ### Design
+
 #### Wireframes
 
 #### Color schemes
-I searched the internet for life coach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/55cbd2-c5fff1-173753-1b4353 where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
-My main background is white, as I don't want to overdo it with a blue background. Also on the hero image, I used a neutral transparent black background with white text to not intervene with the image. 
+
+I searched the internet for life coach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/ where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
+My main background is white, as I don't want to overdo it with a blue background. 
+
+On the hero image, I used a neutral transparent black background with white text to not intervene with the image. 
+
 For color contrast, the used text color-background combinations get a score of 6.36 and up.
 
 #### Fonts
-I went on Google fonts and set the filter to "Calm", browsing through the results this one stuck out to me: Montserrat Alternates. I liked the "E" being different than the other fonts. For a pairing, I couldn't find anything on some of the font pairing sites, but when I just googled font pair with "Montserrat Alternates", this blog came up (https://approval.studio/blog/how-to-combine-fonts/), where they argued for the pair Montserrat Alternates and Raleway, so I decided to go with that.
+
+I went on Google fonts and set the filter to "Calm", browsing through the results this one stuck out to me: Montserrat Alternates. I liked the "E" being different than the other fonts. For a pairing, I couldn't find anything on some of the font pairing sites, but when I just googled for font pairs with Montserrat Alternates, this blog came up (https://approval.studio/blog/how-to-combine-fonts/), where they argued for the pair Montserrat Alternates and Raleway, so I decided to go with that.
 
 #### Logos and images
+
 All used images are my own. I have not created any logos.
 
 ## Features 
@@ -76,6 +94,7 @@ In this section, you should go over the different parts of your project, and des
 ![About](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Image with caption__
+
 - The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user, it is part of gaining more information about Sotis and seeing him at work.
 
 ![Image with caption](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
@@ -149,12 +168,14 @@ If this section grows too long, you may want to split it off into a separate fil
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Technologies used
+
 ### Languages
 
 - HTML 5
 - CSS 3
 
 ### Frameworks - libraries - programs used
+
 - Bootstrap 5.3
 - Figma for wireframes
 - Chrome Dev tools for verifying responsibility and troubleshooting code
@@ -189,6 +210,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - All images are my own.
 
 ### Resources
+
 - Bootstrap documentation
 - w3schools.com for looking up semantic HTML
 - Stackoverflow led me in the right direction sometimes, but could not specifically answer my questions
