@@ -41,7 +41,7 @@ h1, h2, h3 {
     background-color: var(--primary-color);
 }
 /*Logo height set to keep inside 40px div height*/
-#navbar .navbar-brand > img {
+#navbar .logo {
     height: 26px;
 }
 
