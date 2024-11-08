@@ -40,7 +40,10 @@ h1, h2, h3 {
 #navbar {
     background-color: var(--primary-color);
 }
-
+/*Logo height set to keep inside 40px div height*/
+#navbar .navbar-brand > img {
+    height: 26px;
+}
 
 /*Header styles Home*/
 #hero {
