@@ -159,6 +159,14 @@ In this section, you should go over the different parts of your project, and des
 
 ![Book](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
+- __The 404 page__
+
+  - The 404.html page consists of a simple text explaining the page is not found, and a button that links to the home page. I did not want this page to have an image as it may just slow down the loading, I wanted it to be as simple as possible.
+
+  Project file: 404.html
+
+![404 not found](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
 ### Features left to implement
 
 - Video recordings (short parts) of sessions added to the page What I offer,
