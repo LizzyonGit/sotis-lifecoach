@@ -282,6 +282,8 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - For getting a color scheme and checking color contrast: https://coolors.co
 - Grammarly spellschecker
 - Diffchecker.com for checking autoprefixer changes
+- Fixing the navbar for internal links issue: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
+
 
 ## Acknowledgments
 - 

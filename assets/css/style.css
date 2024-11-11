@@ -12,6 +12,12 @@
 }
 
 /*Global styles*/
+
+/*Code copied from https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/, adjusted to my height*/
+html {
+    scroll-padding-top: 56px;/*same as fixed navbar height so it does not overlap when navigating to sections on homepage*/
+}
+
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
