@@ -230,6 +230,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - HTML 5
 - CSS 3
+- Javascript (copied code from CI Boardwalk Games project)
 
 ### Frameworks - libraries - programs used
 
