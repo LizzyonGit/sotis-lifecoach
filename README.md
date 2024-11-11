@@ -195,7 +195,31 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Issues
 
-Mention carousel
+The biggest issue I faced is the Testimonials carousel. 
+
+The carousel was tricky. The text only carousel was tricky, first the controls were in the text but that could easily be fixed with padding. Because the texts were not equally long, the blue carousel item blocks had different heights, this I fixed with a min-height. But the texts were in the top so that didn't look good, vertical align css did not work, I tried to find the answer but could not. I tried to add new divs with contianer, row and col and use align-items-center or align-self-center, but this made the carousel not work good. display:inline flex worked in dev tools on some element, but since I didn't understand what it actually did, I didn't go with that. In the end, targeting the  carousel items with thei carousel-item class mad the carousel disturbed and not work. Targeting the container-item with active class to display:flex and align-items center, worked and I just created the custom css with display flex and align items center. I don't really understand why, I've just been trying. I guess it's because the carousel items becomes active and tagreting 2 classes overrides something else.
+Now the next thing was between the two carousel items display, there is a white background where the text is display on top, before it shows on the blue background in the middle. have to fix this
+
+
+
+changed blue background to wrapper div, still displays something different in between
+
+
+
+I tried som different styles of sliding, like fade, but did not work. I added styles to inner carousel div to get it to look like the item, it looks better now, so I will conitnue
+
+target carousel.item as well?
+
+
+
+target carousel.item changes some stuff as it first appears up and then goes down, or it's duplicated. I decide the way it is now is the best option
+
+devtools helped me enormously with the carousel, I could not figure out the issue but as the slide went on, I suddenly noticed a class .carousel-item-next, and figured this must be the transitioning slide. I tested giving that the same padding as the active slide, and the jump was gone!!!
+
+
+
+But, then it wasn't centered, so it needed to be added to flex display as well. And then I realised that when you control the carousel yourself, the previous slide gets the jump as well, so I found .carousel-item-prev in dev tools and added that as well.
+
 
 ### Validator testing 
 
@@ -221,6 +245,8 @@ Mention carousel
 ### Fixed bugs
 
 ### Unfixed Bugs
+
+Navbar?
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
