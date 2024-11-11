@@ -15,6 +15,7 @@
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    padding-top: 56px;/*same as fixed navbar height, so it does not overlap*/
 }
 
 h1, h2, h3 {
