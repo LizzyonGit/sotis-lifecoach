@@ -34,13 +34,13 @@
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>               
                   <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about"><span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">About</span></a><!--adding span on these anchor links is copied from a post in CI slack, it closes the navbar after clicking-->
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#philosophy">Philosophy</a>
+                    <a class="nav-link" href="#philosophy"><span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Philosophy</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                    <a class="nav-link" href="#testimonials"><span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Testimonials</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="what-i-offer.html">What I offer</a>
@@ -165,27 +165,5 @@
 
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/b6d7281abd.js" crossorigin="anonymous"></script>
-
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links. Copied from CI Boardwalk games project -->
-<script>
-  document
-      .querySelectorAll(".navbar-collapse .nav-link")
-      .forEach((link) => {
-          link.addEventListener("click", function (e) {
-              let section = document.querySelector(e.target.getAttribute("href"));
-              if (section) {
-                  e.preventDefault(); // Prevent default anchor click behavior
-                  let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                  window.scroll({
-                      top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                      behavior: "smooth",
-                  });
-                  document
-                      .querySelector(".navbar-collapse")
-                      .classList.remove("show"); // Collapse navbar
-              }
-          });
-      });
-</script>
 </body>
 </html>
