@@ -92,7 +92,10 @@ I went on Google fonts and set the filter to "Calm", browsing through the result
 
 #### Logos and images
 
-All used images are my own. I have not created any logos.
+The logo with a cat and a book is from Canva.com, from which I removed the text. In www3.lunapic.com I created a transparent background and changed the color to create a logo for the navbar in #55CBD2 and as a favicon in #173753. To create the favicon files, I used favicon.io.
+
+
+All used images are my own.
 
 ## Features 
 
@@ -221,6 +224,11 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 - TinyPNG for compressing image size
 - Paint for resizing and cropping images
 - Responsinator.com for checking responsiveness
+- Canva.com for logo
+- Lunapic for transparent background and coloring
+- Favicon.io for creating favicon icons and html code
+- https://realfavicongenerator.net/ for checking the favicon
+- https://autoprefixer.github.io/ for running through style.css
 
 ## Deployment
 
@@ -254,6 +262,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Inspiration from https://themewagon.github.io/Pilates/
 - For getting a color scheme and checking color contrast: https://coolors.co
 - Grammarly spellschecker
+- Diffchecker.com for checking autoprefixer changes
 
 ## Acknowledgments
 - 
