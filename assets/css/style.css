@@ -83,8 +83,12 @@ h1, h2, h3 {
 #testimonials-carousel .carousel-inner,
 #testimonials-carousel .carousel-item-next,
 #testimonials-carousel .carousel-item-prev {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: var(--primary-color);
     text-align: center;
 }
