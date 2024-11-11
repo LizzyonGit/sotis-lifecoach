@@ -230,7 +230,6 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - HTML 5
 - CSS 3
-- Javascript (copied code from CI Boardwalk Games project)
 
 ### Frameworks - libraries - programs used
 
@@ -284,6 +283,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Grammarly spellschecker
 - Diffchecker.com for checking autoprefixer changes
 - Fixing the navbar for internal links issue: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
+- Html and css for fixing navbar to close after clicking anchor link comes from Bug report channel CI slack from James_BC, with slight adjustment in html
 
 
 ## Acknowledgments
