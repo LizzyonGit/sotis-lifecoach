@@ -54,7 +54,7 @@ h1, h2, h3 {
 
 /*Header styles Home*/
 #hero {
-    background: url(../img/hero.jpg) 75% 35% var(--primary-color);
+    background: url(../img/hero.webp) 75% 35% var(--primary-color);
     min-height:500px;
     
 }

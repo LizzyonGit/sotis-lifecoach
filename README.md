@@ -255,6 +255,8 @@ The biggest issue I faced is the text-based Testimonials carousel.
 
 ### Lighthouse testing
 
+
+
 ### Manual testing
 
 #### Form testing
