@@ -255,6 +255,24 @@ The biggest issue I faced is the text-based Testimonials carousel.
 
 ### Lighthouse testing
 
+#### Index.html
+
+Running the home page in Lighthouse resulted in 100 % for accessability and best practices, but 79 for performance:
+
+![Lighthouse result 1](docs/screenshots/lighthouse-home-1.png)
+
+An issue was to 'serve images in next-gen formats', suggesting to fix the hero image and my rounded image. I converted those to .webp images.
+
+It also said to 'properly size images', and suggested to fix my logo and the rounded image. I made my logo file and rounded image smaller, but still made sure the original images would always be larger than they actually will be displayed, as I don't want the risk of the images getting enlarged and lose quality.
+
+I got an approvement after this to 92%, but the performance score does change from time to time, as my computer is also a bit slow.
+
+![Lighthouse result 2](docs/screenshots/lighthouse-home-2.png)
+
+Looking at what more I could do, it said to 'minimize main-thread work', mentioning style and lay-out. My css is not very complicated, but I changed some of my css targets to include child combinators instead of descendent combinators, as they should be faster. However, I did not make all of my targets specific, as this would make it harder to read I think, and it is not done in the walkthrough projects either. Now the result is 93%:
+
+![Lighthouse result 3](docs/screenshots/lighthouse-home-3.png)
+
 
 
 ### Manual testing
@@ -293,8 +311,9 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 - GitHub for version control and hosting
 - Google fonts for my font pair
 - Fontawesome for my icons
-- TinyPNG for compressing image size
+- TinyPNG for compressing image size and converting to webp
 - Paint for resizing and cropping images
+- Windows Photos for resizing images
 - Responsinator.com for checking responsiveness
 - Canva.com for logo
 - Lunapic for transparent background and coloring
