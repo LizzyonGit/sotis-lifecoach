@@ -62,7 +62,15 @@ h1, h2, h3 {
 #hero-quote {
     background-color: rgba(00,00,00,0.5);
 }
-#hero-quote > h2 {
+#hero-quote > p {
+    font-family: var(--secondary-font);
+    color: white;
+}
+/*h1 styles to make it white, italic, thin and closer to quote under it with the same margin on top */
+#hero-quote > h1 {
+    font-style: italic;
+    font-weight: 100;
+    margin: 0.2em 0;
     color: white;
 }
 
