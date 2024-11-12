@@ -195,6 +195,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Issues
 
+I want to mention a few issues here because they were not straight-forward to fix.
+
 #### Testimonials carousel
 The biggest issue I faced is the text-based Testimonials carousel.
 
@@ -312,8 +314,9 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Grammarly spellschecker
 - Diffchecker.com for checking autoprefixer changes
 - Fixing the navbar for internal links issue: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
+- Checking browser compatibility of a css style rule: https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top
 - Html and css for fixing navbar to close after clicking anchor link comes from Bug report channel CI slack from James_BC, with slight adjustment in html
-
+-
 
 ## Acknowledgments
 - 
