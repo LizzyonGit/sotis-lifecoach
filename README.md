@@ -195,30 +195,23 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Issues
 
-The biggest issue I faced is the Testimonials carousel. 
+The biggest issue I faced is the text-based Testimonials carousel.
 
-The carousel was tricky. The text only carousel was tricky, first the controls were in the text but that could easily be fixed with padding. Because the texts were not equally long, the blue carousel item blocks had different heights, this I fixed with a min-height. But the texts were in the top so that didn't look good, vertical align css did not work, I tried to find the answer but could not. I tried to add new divs with contianer, row and col and use align-items-center or align-self-center, but this made the carousel not work good. display:inline flex worked in dev tools on some element, but since I didn't understand what it actually did, I didn't go with that. In the end, targeting the  carousel items with thei carousel-item class mad the carousel disturbed and not work. Targeting the container-item with active class to display:flex and align-items center, worked and I just created the custom css with display flex and align items center. I don't really understand why, I've just been trying. I guess it's because the carousel items becomes active and tagreting 2 classes overrides something else.
-Now the next thing was between the two carousel items display, there is a white background where the text is display on top, before it shows on the blue background in the middle. have to fix this
+- To have the controls not overlap the text, I had to give the carousel slide a certain padidng which also had to be adapted for different screens with media queries, because for smaller screens, too much padding caused a lot of empty space and cramped text.
 
+- Because the testimonial texts are not equally long, the blue background carousel slides had different heights for different testimonials, which I fixed with media queries with a min-height value. 
 
+- The texts were in the top of the slide, so that didn't look good. Css vertical-align did not work, I tried to add new divs with .container, .row and .col and use align-items-center or align-self-center, but this made the carousel not work good. Playing around in dev tools, Display:inline-flex worked on some element, but since I did not understand what it actually did, I didn't go with that. Targeting all the carousel items with .carousel-item and css display:flex and align-items:center, made the carousel look disturbed and not work. Targeting the container-item class with the active class and custom css display:flex and align-items:center, worked to get the text in the middle each slide. I realised in dev tools, that when the carousel runs, the slide that is there, gets the active class. But it makes it hard to troubleshoot since it changes so quickly. Targeting only the carousel item with the active class may override some other setting since it's more specific than just targeting .carousel-item, so I guessed this is why it worked.
 
-changed blue background to wrapper div, still displays something different in between
+- Now the next issue was that in between two carousel items, before the upcoming carousel item displays correctly in the middle on the blue background, there was a white background where the upcoming text was displayed on top. To fix the background color to remain blue all the time, I added the background to the wrapper div element, which worked. 
 
+- But the text still displayed on top of the slide inbetween two slides, so there was a little 'jump' everytime inbetween two slides. I tried som different styles of 'sliding', like 'fade', but it did not work. My thought was that I should make the upcoming slide look like the active slide, so I applied the same styles to the .carousel-inner div to get it to look like the active carousel-item, which made it look better since the upcoming text was not on top anymore, but in the middle. 
 
+- But there was still a little jump since the padding seemed to be different, the upcoming text was wider than the text on the active slide. I tried to target the actual carousel.item class with some of the same styles as the active carousel item, but that did not look better, it went up and down again or all testimonials were on top of each other. So the little jump seemed better at this time.
 
-I tried som different styles of sliding, like fade, but did not work. I added styles to inner carousel div to get it to look like the item, it looks better now, so I will conitnue
+- However, I could let this go and tried to fix this this again later. Dev tools helped me enormously with the carousel. Initially, I could not figure out the issue but as the slide went on and I was looking at what happened in the dev tools side panel, I suddenly noticed a class .carousel-item-next, and figured this must be the 'upcoming' slide. I tested giving that the same padding as the active slide, which resulted in the text being the same width, since both the upcoming slide and the active slide had the same padding. But, then text was not in the vertically in the middle, so it needed to be have display:flex and align-items:center as well so it would be exactly the same as the active class. 
 
-target carousel.item as well?
-
-
-
-target carousel.item changes some stuff as it first appears up and then goes down, or it's duplicated. I decide the way it is now is the best option
-
-devtools helped me enormously with the carousel, I could not figure out the issue but as the slide went on, I suddenly noticed a class .carousel-item-next, and figured this must be the transitioning slide. I tested giving that the same padding as the active slide, and the jump was gone!!!
-
-
-
-But, then it wasn't centered, so it needed to be added to flex display as well. And then I realised that when you control the carousel yourself, the previous slide gets the jump as well, so I found .carousel-item-prev in dev tools and added that as well.
+- I realised that when you control the carousel yourself, and go to the previous slide manually, the previous slide still has the 'jump' and previous issues ofcourse, so I found .carousel-item-prev in dev tools and targeting that class with the same styles as .coursel-item-next, which finally made the carousel work smoothly without 'jumps'.
 
 
 ### Validator testing 
