@@ -261,6 +261,8 @@ Running the home page in Lighthouse resulted in 100 % for accessability and best
 
 ![Lighthouse result 1](docs/screenshots/lighthouse-home-1.png)
 
+(Later, I realised I did not include index.html in the url, so this may have caused the low score.)
+
 An issue was to 'serve images in next-gen formats', suggesting to fix the hero image and my rounded image. I converted those to .webp images.
 
 It also said to 'properly size images', and suggested to fix my logo and the rounded image. I made my logo file and rounded image smaller, but still made sure the original images would always be larger than they actually will be displayed, as I don't want the risk of the images getting enlarged and lose quality.
@@ -273,6 +275,9 @@ Looking at what more I could do, it said to 'minimize main-thread work', mention
 
 ![Lighthouse result 3](docs/screenshots/lighthouse-home-3.png)
 
+#### what-i-offer.html
+
+Before running Lighthouse, I converted all my images to .webp files.
 
 
 ### Manual testing
