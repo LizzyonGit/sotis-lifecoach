@@ -195,6 +195,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Issues
 
+#### Testimonials carousel
 The biggest issue I faced is the text-based Testimonials carousel.
 
 - To have the controls not overlap the text, I had to give the carousel slide a certain padidng which also had to be adapted for different screens with media queries, because for smaller screens, too much padding caused a lot of empty space and cramped text.
@@ -209,10 +210,19 @@ The biggest issue I faced is the text-based Testimonials carousel.
 
 - But there was still a little jump since the padding seemed to be different, the upcoming text was wider than the text on the active slide. I tried to target the actual carousel.item class with some of the same styles as the active carousel item, but that did not look better, it went up and down again or all testimonials were on top of each other. So the little jump seemed better at this time.
 
-- However, I could let this go and tried to fix this this again later. Dev tools helped me enormously with the carousel. Initially, I could not figure out the issue but as the slide went on and I was looking at what happened in the dev tools side panel, I suddenly noticed a class .carousel-item-next, and figured this must be the 'upcoming' slide. I tested giving that the same padding as the active slide, which resulted in the text being the same width, since both the upcoming slide and the active slide had the same padding. But, then text was not in the vertically in the middle, so it needed to be have display:flex and align-items:center as well so it would be exactly the same as the active class. 
+- However, I could let this go and tried to fix this this again later. Dev tools helped me enormously with the carousel. Initially, I could not figure out the issue but as the slide went on and I was looking at what happened in the dev tools side panel, I suddenly noticed a class .carousel-item-next, and figured this must be the 'upcoming' slide. I tested giving that the same padding as the active slide, which resulted in the text being the same width, since both the upcoming slide and the active slide had the same padding. But, then the text was not in the vertically in the middle, so it needed to have display:flex and align-items:center as well, so it would be exactly the same as the active class. 
 
-- I realised that when you control the carousel yourself, and go to the previous slide manually, the previous slide still has the 'jump' and previous issues ofcourse, so I found .carousel-item-prev in dev tools and targeting that class with the same styles as .coursel-item-next, which finally made the carousel work smoothly without 'jumps'.
+- I realised that when you control the carousel yourself, and go to the previous slide manually, the previous slide ofcourse still has the 'jump' and previous issues, so I found .carousel-item-prev in dev tools and targeted that class with the same styles as .coursel-item-next, which finally made the carousel work smoothly without 'jumps'.
 
+#### Anchor links on fixed navigation bar
+
+- The fixed navigation bar was overriding the headers after you clicked on the anchor links About, Philosophy and Testimonials. However, the solution provided in the Boardwalk games project did not work for me, since I have not used so much margin or padding between my sections as in te Boardwalk games, so there would be no place for the navbar anyway. The navbar woudl simply need ot overlap content. I did not want to add spaces just because of this navbar and decided to look for a solution. 
+
+- I googled and found https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/ with the suggestion of a simple style rule for the html element: scroll-padding-top: 70px; /* height of sticky header */. I checked if this scroll-padding-top is supported by all browsers, and found that it was (https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top). I applied it with my nav bar's height of 56px, and it worked.
+
+- But I still needed to fix the issue of the nav bar not closing after clicking an anchor link, as is done in the Boardwalk games project as well. The javascript code provided there, interferred with my scroll-padding-top solution, so I needed to find another solution for closing the nav bar after clicking an anchor link. For this, I used a posted bug report on CI's Slack on October 16-22 2024. James_BC provides an html code to make the anchor links close after clicking. This HTML code did not work but I quickly found that this was because the id was not correct, so I adapted the code and it worked. James_BC even provided a css code that would fix an issue on larger screens, as the navbar menu titles seem to collapse and open again. I copied this code in my css.stylesheet under media queries, and it worked.
+
+- It does still bother me that the navbar is not closing when you click next to an anchor link text. Another issue is that the navbar is not closing quickly, it seems to roll upp, so it does interfere a bit with the user experience. 
 
 ### Validator testing 
 
