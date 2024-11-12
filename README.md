@@ -281,6 +281,8 @@ Before running Lighthouse, I converted all my images to .webp files. The first r
 
 Regarding accessibility, there was an issue 'Heading elements are not in a sequentially-descending order'. This is because the card titles from Bootstrap have the h5, while the descending order would be h3. I changed all these card titles to h3 with a class of h5 to have the same font size. Because of my custom css for h3, the font changed to Montserrat Alternates, which I kept.
 
+Running Lighthouse again, resulted in 100% for accessibility, and now suddenly performance got to 95% as well.
+
 
 ### Manual testing
 
