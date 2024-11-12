@@ -229,9 +229,20 @@ The biggest issue I faced is the text-based Testimonials carousel.
 ### Validator testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - The [W3C validator](https://validator.w3.org) notified me along the way about trailing slashes, since I had used <br />, a missing <p> because I had put an <ol> inside a <p>, which is not allowed. It also notified me about a section without a header, the section I wrapped around the About and Philosophy sections and the image inbetween. This section does not need a separate title, so I gave it an h2 with a visually-hidden class.
+
+  - No warnings or errors are currently found when passing through the validator: 
+  [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Findex.html)
+
+  [what-i-offer.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Fwhat-i-offer.html)
+
+  [book.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Fbook.html)
+
+  [404.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2F404.html)
+
+
 - CSS
-  - The [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) along the way notified me about an unvalid value of padding, which I missed. This was easily fixed.
+  - The [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) notified me along the way about an unvalid value of padding, which I missed. This was easily fixed.
 
   - No errors are currently found when passing through the validator:
 
