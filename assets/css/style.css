@@ -197,6 +197,8 @@ form option, form .form-select {
 @media screen and (min-width: 992px) {
     
     .collapsing {
+        -webkit-transition: none;
+        -o-transition: none;
         transition: none;
         overflow: visible;
     }
