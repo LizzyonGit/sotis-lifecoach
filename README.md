@@ -231,7 +231,16 @@ The biggest issue I faced is the text-based Testimonials carousel.
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - The [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) along the way notified me about an unvalid value of padding, which I missed. This was easily fixed.
+
+  - No errors are currently found when passing through the validator:
+
+  ![No css errors](docs/screenshots/css-validator.png)
+
+  - The warnings given by the validator apply to the imported google fonts, variables and the autoprefixer additions. These are the same as the warnings for the Boardwalk Games project, and they can be ignored, as they were ignored there.
+
+  ![Css warnings](docs/screenshots/css-warnings.png)
+
 
 ### Lighthouse testing
 
