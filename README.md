@@ -336,12 +336,17 @@ Firefox: regarding the Phone field in the form on book.html, you can type any le
 
 #### Device testing
 
-I checked the website in developer tools for the different dimensions. I also checked the different web pages in http://www.responsinator.com/. I found a missing margin there for the 404.html when you turn a device horizontally. I realise I did not see this before because the section is so small, the viewport was always much larger, creating the white space around it when I centered the section with .my-auto. But turning the device creates a much smaller viewport, so the .my-auto did not create any margin around the section, and it does not look good:
+I checked the website in developer tools for the different dimensions. 
+
+I also checked the different web pages in http://www.responsinator.com/. I found a missing margin there for the 404.html when you turn a device horizontally. I realise I did not see this before because the section is so small, the viewport was always much larger, creating the white space around it when I centered the section with .my-auto. But turning the device creates a much smaller viewport, so the .my-auto did not create any margin around the section, and it does not look good:
 
 ![Device test 404.html issue](docs/screenshots/device-test-1.png)
 
 I simple added .my-3 to the inner div.row to create some margin, without interfering with anything else. It looks fine now:
 
+![Device test 404.html issue fixed](docs/screenshots/device-test-2.png)
+
+I also tested on my own Huawei smartphone.
 
 #### Friends and family user testing
 
