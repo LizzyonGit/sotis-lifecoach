@@ -229,20 +229,20 @@ The biggest issue I faced is the text-based Testimonials carousel.
 ### Validator testing 
 
 - HTML
-  - The [W3C validator](https://validator.w3.org) notified me along the way about trailing slashes, since I had used <br />, a missing <p> because I had put an <ol> inside a <p>, which is not allowed. It also notified me about a section without a header, the section I wrapped around the About and Philosophy sections and the image inbetween. This section does not need a separate title, so I gave it an h2 with a visually-hidden class.
+  - The [W3C validator](https://validator.w3.org) notified me along the way about trailing slashes, since I had used 'br /', a missing p tag because I had put an ol tag inside a p tag, which is not allowed. It also notified me about a section without a header, the section I wrapped around the About and Philosophy sections and the image inbetween. This section does not need a separate title, so I gave it an h2 with a visually-hidden class.
 
-  - No warnings or errors are currently found when passing through the validator: 
-  [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Findex.html)
+  - No warnings or errors are currently found when passing through the validator:
+    -  [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Findex.html)
 
-  [what-i-offer.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Fwhat-i-offer.html)
+    -  [what-i-offer.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Fwhat-i-offer.html)
 
-  [book.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Fbook.html)
+    -  [book.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Fbook.html)
 
-  [404.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2F404.html)
+    -  [404.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2F404.html)
 
 
 - CSS
-  - The [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) notified me along the way about an unvalid value of padding, which I missed. This was easily fixed.
+  - The [(Jigsaw) validator](https://jigsaw.w3.org/css-validator) notified me along the way about an unvalid value of padding, which I missed. This was easily fixed.
 
   - No errors are currently found when passing through the validator:
 
@@ -275,6 +275,10 @@ Looking at what more I could do, it said to 'minimize main-thread work', mention
 
 ![Lighthouse result 3](docs/screenshots/lighthouse-home-3.png)
 
+After redoing the html with h1 tags, see more below for what-i-offer.html, I got a much better result, but this was taken after I cleaned up my computer a bit, so it could just be my computer's performance influencing this. The red bullets in the Lighthouse report now have to do with Bootstrap, JS, Google Font, all issues I cannot fix. 
+
+![Lighthouse result 4](docs/screenshots/lighthouse-home-4.png)
+
 #### what-i-offer.html
 
 Before running Lighthouse, I converted all my images to .webp files. The first result was:
@@ -287,8 +291,27 @@ Running Lighthouse again, resulted in 100% for accessibility, and now suddenly p
 
 ![Lighthouse result 2](docs/screenshots/lighthouse-offer-2.png)
 
-After this, I actually went through the use of my headings on all pages, since an h1 was missing on every page.
+After this, I actually went through the use of my headings on all pages, since an h1 was missing on every page. After adding h1 and redoing the html structure a bit, I run the HTML and CSS validators again and updated the results. I also got a new better result for Lighthouse on the home page, which may have to do that I took this one after my computer was cleaned up a bit.
 
+![Lighthouse result 3](docs/screenshots/lighthouse-offer-3.png)
+
+The red bullets in the Lighthouse report now have to do with Bootstrap, JS, Google Font, all issues I cannot fix. Sometimes, it says my image for the 'Talking' session is too large, but it is already converted.
+
+#### book.html
+
+The first run Lighthouse report gives 98% on performance and 100% on accessibility and best practices. 
+
+![Lighthouse result 1](docs/screenshots/lighthouse-book-1.png)
+
+The red bullets, like for the other pages, mention CCS, JS which is related to Bootstrap, Google Fonts. It mentions to 'minimize main-thread work' again, 'Other' being the highest, but I don't see how I can fix this and I'm happy with the score.
+
+#### 404.html
+
+The first Lighthouse report gives 98% on performance and 100% on accessibility and best practices.
+
+![Lighthouse result 1](docs/screenshots/lighthouse-404-1.png)
+
+I'm happy with this score for performance, and like the other pages it mentions Bootstrap, Google Fonts, and I don't see anything I can improve.
 
 ### Manual testing
 
@@ -372,7 +395,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Fixing the navbar for internal links issue: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
 - Checking browser compatibility of a css style rule: https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top
 - Html and css for fixing navbar to close after clicking anchor link comes from Bug report channel CI slack from James_BC, with slight adjustment in html
--
+- Check what I can do to improve performance: https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/?utm_source=lighthouse&utm_medium=devtools
 
 ## Acknowledgments
 - 
