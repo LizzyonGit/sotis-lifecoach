@@ -346,6 +346,8 @@ I simple added .my-3 to the inner div.row to create some margin, without interfe
 
 ![Device test 404.html issue fixed](docs/screenshots/device-test-2.png)
 
+This change did not cause any new issue in the html validator or the Lighthouse report for this page.
+
 I also tested on my own Huawei smartphone.
 
 #### Friends and family user testing
