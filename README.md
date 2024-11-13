@@ -105,19 +105,20 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation bar__
 
-  - All three pages have a navigation bar with "Sotis life coach" and "Home" linking to the index.html page, "About", "Philosophy" and "Testimonials" linking to the corresponding sections on the index.html page, "What I offer" linking to the what-i-offer.html page and the "Book" button linking to the book.html page. The page you are currently on is lighting up for the "Home" and "What I offer" pages.
-  - The navigation bar allows the user to easily navigate from page to page and to specific sections on a page. 
+  - All three pages have a navigation bar with a logo, 'Sotis life coach' and 'Home' linking to the index.html page, 'About', 'Philosophy' and 'Testimonials' linking to the corresponding sections on the index.html page, 'What I offer' linking to the what-i-offer.html page and the 'Book' button linking to the book.html page. The page you are currently on is lighting up for the 'Home' and 'What I offer' pages.
+  - The navigation bar allows the user to easily navigate from page to page and to specific sections on a page. It is fixed on top of the screen which is specifically useful for mobile phone users, as the pages are longer there, so the navigation is always easily reached.
 
 ![Navigation bar](docs/screenshots/features-navbar.png)
 
 - __The landing page image__
 
-  - The landing page has a hero image of Sotis, looking into the camera, with an appropriate quote about cats and life. This section hopes to grasp the user's attention and give a positive feeling.
+  - The landing page has a hero image of Sotis, looking into the camera, a header 'Sotis life coach' with an appropriate quote about cats and life. This section hopes to grasp the user's attention and give a positive feeling.
+  - My initial hero image would be with the About section on top, but I decided to focus on the life coach himself, Sotis, in the hero image, with a one liner on it, as I've seen in several life coach website templates.
 
 ![Landing page image](docs/screenshots/features-hero.png)
 - __About section__
 
-  - The About section gives an introduction to who Sotis is. For a user wanting to know more about Sotis, this is important information. The insight into who he is helps deciding on whether or not to book an appointment.
+  - The About section gives an introduction to who Sotis is and his background. For a user wanting to know more about Sotis, this is important information. The insight into who he is helps deciding on whether or not to book an appointment.
 
 ![About](docs/screenshots/features-about.png)
 
@@ -129,7 +130,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Philosophy section__
 
-  - The Philosophy section gives an insight into how Sotis works and what his methods and convictions are. This gives the user more information about his professionality and helps in making the decision to book an appointment or not.
+  - The Philosophy section gives an insight into how Sotis works and what his methods and convictions are. This gives the user more information about his professionality, what to expect,  and helps in making the decision to book an appointment or not.
 
 ![Philosophy](docs/screenshots/features-philosophy.png)
 
@@ -147,7 +148,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __The What I offer page__
 
-  - The page What I offer has an introductory header text with a button that links to the book.html page and displays the four different sessions you can book with Sotis in card format. Each card has a title, description, related image and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book.
+  - The page What I offer has an introductory header text and displays the four different sessions you can book with Sotis in card format. Each card has an image, related to the session type, a title, description, button that links to the book.html page, and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book.
+   
    
    Project file: what-i-offer.html
 
@@ -155,7 +157,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Book page__
 
-  - The Book page consists of an introductory header text and a form with the fields First name, Last name, Email, Phone, Session type, Preferred date and time, and a Send button. All fields are required to be able to submit the form. The Book page is crucial for the user and site owner, as it allows to book an appointment with Sotis.
+  - The Book page consists of an introductory header text and a form with the fields First name, Last name, Email, Phone, Session type, Preferred date and time, and a Send button. All fields are required to be able to submit the form. The Book page is crucial for the user and site owner, as it allows to book an appointment with Sotis. Clicking Send leads to the CI formdump https://formdump.codeinstitute.net/.
+
 
   Project file: book.html
 
@@ -165,6 +168,7 @@ In this section, you should go over the different parts of your project, and des
 
   - The 404.html page consists of a simple text explaining the page is not found, and a button that links to the home page. I did not want this page to have an image as it may just slow down the loading, I wanted it to be as simple as possible.
 
+  
   Project file: 404.html
 
 ![404 not found](docs/screenshots/features-404.png)
