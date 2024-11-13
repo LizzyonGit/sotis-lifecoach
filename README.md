@@ -323,7 +323,11 @@ After sending a completed form, you go to the CI formdump where you can see that
 
 #### Link testing
 
+All links in the navigation bar go to the correct pages or sections. All buttons go to the correct page. The social media links in the footer go to the correct pages and open in a new tab.
+
 #### Browser testing
+
+
 
 #### Device testing
 
