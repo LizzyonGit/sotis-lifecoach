@@ -332,9 +332,16 @@ I tested my website on Chrome, Edge and Firefox. For testin Safari, I used Chrom
 
 I found one minor difference:
 
-Firefox: regarding the Phone field in the form on book.html, you can type any letter, but you will get an error message saying you have to fill in a number. In other browsers, you can not even type anything else than a number (except for an 'e', but it will still give you an error). I find this acceptible.
+Firefox: regarding the Phone field in the form on book.html, you can type any letter, but you will get an error message saying you have to fill in a number. In other browsers, you can not even type anything else than a number (except for an 'e', but it will still give you an error). I find this acceptable.
 
 #### Device testing
+
+I checked the website in developer tools for the different dimensions. I also checked the different web pages in http://www.responsinator.com/. I found a missing margin there for the 404.html when you turn a device horizontally. I realise I did not see this before because the section is so small, the viewport was always much larger, creating the white space around it when I centered the section with .my-auto. But turning the device creates a much smaller viewport, so the .my-auto did not create any margin around the section, and it does not look good:
+
+![Device test 404.html issue](docs/screenshots/device-test-1.png)
+
+I simple added .my-3 to the inner div.row to create some margin, without interfering with anything else. It looks fine now:
+
 
 #### Friends and family user testing
 
