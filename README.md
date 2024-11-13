@@ -37,10 +37,10 @@ Sotis is a life coach, and this is his website. The website targets people inter
 - get word around about a special cat offering life coach services, so that I build brand awareness.
 - convince visitors to book an appointment, so that I grow my business and help clients.
 
-#### Tasks to achieve user stories (or in testing section?)
+#### Tasks to achieve user stories
 
-- create informative sections with background information about Sotis and according to which philosophy he works, with an image,
-- create informative cards about the different sessions Sotis can offer the client and what these cost, how long they take and what they entail, with a suitable image,
+- create informative sections with background information about Sotis and according to which philosophy he works, with an image from his work environment,
+- create informative cards about the different sessions Sotis can offer the client and what these cost, how long they take and what they entail, with a suitable image, and a button to book them,
 - create a form where a client can choose a session and a date and time to book this session, along with filling in name, email, phone and a message,
 - create a testimonials section that contains a few reviews from other clients,
 - create a navbar with navigation to Home, About, Philosophy, Testimonials, What I offer and Book,
@@ -98,8 +98,6 @@ The logo with a cat and a book is from Canva.com, from which I removed the text.
 All used images are my own.
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing features
 
@@ -166,7 +164,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __The 404 page__
 
-  - The 404.html page consists of a simple text explaining the page is not found, and a button that links to the home page. I did not want this page to have an image as it may just slow down the loading, I wanted it to be as simple as possible.
+  - The 404.html page consists of a simple text explaining the page is not found, and a button that links to the home page, so the user can easily go there. I did not want this page to have an image as it may just slow down the loading, I wanted it to be as simple as possible.
 
   
   Project file: 404.html
@@ -184,15 +182,17 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ### User story testing
+
+| User story                                                              | How it is achieved    |
+| -----------                                                             | -----------           |
+| As a person interested in seeing a life coach, I want to:<br>find information about Sotis the life coach and how he works,<br>so that I can decide if I consider booking an appointment with him.  |About, Philosophy sections, pictures              |
+|As a potential client, I want to:      |
+|find information about what Sotis can offer me, <br>how much it would cost and where it would be,<br> so that I can decide if I want to book an appointment with him.   | What I offer page with all the sessions, address in the footer        |
+|be able to contact Sotis, so that I can ask questions about anything unclear,<br> so that I can decide if I still want to book an appointment with him.| Contact information in the footer        |
+|read reviews from previous clients, to decide if I<br> also want to book an appointment with Sotis.| Testimonials |
+|find a way to book an appointment, so that I can do this easily on the website.| Book page via Book buttons |
+
 
 ### Issues
 
@@ -364,8 +364,6 @@ This change did not cause any new issue in the html validator or the Lighthouse 
 
 I also tested on my own Huawei smartphone.
 
-#### Friends and family user testing
-
 ### Fixed bugs
 
 I did not find bugs while testing, only issues, as described above.
@@ -412,7 +410,6 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/index.html
 
-
 ## Credits 
 
 ### Content 
@@ -443,20 +440,3 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 
 ## Acknowledgments
 - My mentor Antonio Rodriguez for tips and feedback
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
