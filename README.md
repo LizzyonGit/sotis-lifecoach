@@ -340,10 +340,11 @@ Firefox: regarding the Phone field in the form on book.html, you can type any le
 I checked the website in developer tools for the different dimensions. A few of my features have very different lay-outs on different screens, working as intended:
 - Navigation bar: from small mobile screens to and including tablet screens, the menu links are collapsed in a hamburger menu.
 - Hero image: from small mobile screens to but not including tablet screens, the header and quote move from the left center of the image, to the bottom of the image, to not overlap Sotis' head.
-- About, image and Philosophy: from small mobile screens to but not including tablet screens, these sections are stacked vertically and take up the full screen width, with the headers centered.
-- Footer: from small mobile screens to but not including tablet screens, the address and email and phone sections are stacked vertically and aligned to the left. 
+- About, image and Philosophy: from small mobile screens to but not including tablet screens, these sections are stacked vertically and take up the full screen width, with the headers centered. From tablet screens and up, they take up one row with three equal width columns, and the headers are left aligned.
+- Testimonials: from small mobile screens up to and including 991 px width, the carousel takes the full width of the screen, from 992 px, it takes half the width of the container, but is centered in the middle of the screen.
+- Footer: from small mobile screens to but not including tablet screens, the address section and email and phone section are stacked vertically and aligned to the left. From tablet size screens, these two sections are displayed next to each other in two columns, where the adress section in the left column is moved to the end/right of its own column.
 - What I offer: 
-  - from small mobile screens to but not including tablet screens, the four cards are stacked vertically,
+  - from small mobile screens to but not including tablet screens, the four cards are stacked vertically, each at full width of the screen,
   - from tablet screen size to but not including small laptops at 992 px width, the four cards are displayed in two rows of two cards,
   - from 992 px, the cards are displayed in one row of four cards.
 - Book: 
