@@ -337,10 +337,10 @@ Firefox: regarding the Phone field in the form on book.html, you can type any le
 
 #### Device testing
 
-I checked the website in developer tools for the different dimensions. A few of my features have very different lay-outs on different screens:
+I checked the website in developer tools for the different dimensions. A few of my features have very different lay-outs on different screens, working as intended:
 - Navigation bar: from small mobile screens to and including tablet screens, the menu links are collapsed in a hamburger menu.
 - Hero image: from small mobile screens to but not including tablet screens, the header and quote move from the left center of the image, to the bottom of the image, to not overlap Sotis' head.
-- About, image and Philosophy: from small mobile screens to but not including tablet screens, these sections are stacked vertically.
+- About, image and Philosophy: from small mobile screens to but not including tablet screens, these sections are stacked vertically and take up the full screen width, with the headers centered.
 - Footer: from small mobile screens to but not including tablet screens, the address and email and phone sections are stacked vertically and aligned to the left. 
 - What I offer: 
   - from small mobile screens to but not including tablet screens, the four cards are stacked vertically,
