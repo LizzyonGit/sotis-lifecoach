@@ -317,7 +317,7 @@ I'm happy with this score for performance, and like the other pages it mentions 
 
 #### Form testing
 
-I tested the form on the book.html page and you can not send the form if not all fields are filled out. Each time you try to click Send, it will give a warning message on the first field that is not filled out, and after you fill that one out and click Send again, it will show the message on the next field, and so on. For the email field, it requires an @ and an '.com' and something before @ and inbetween, 'a@a.com' works. The phone number field requires a number, and all other fields are texts. The selectible option fields all show the correct options and you actively have to select one to continue.
+I tested the form on the book.html page and you can not send the form if not all fields are filled out. Each time you try to click Send, it will give a warning message on the first field that is not filled out, and after you fill that one out and click Send again, it will show the message on the next field, and so on. For the email field, it requires an @ and an '.com' and something before @ and inbetween, 'a@a.com' works. The phone number field requires a number (however, it does let you type an 'e', but will still give an error), and all other fields are texts. The selectible option fields all show the correct options and you actively have to select one to continue.
 
 After sending a completed form, you go to the CI formdump where you can see that the input names and values are correct.
 
@@ -327,7 +327,12 @@ All links in the navigation bar go to the correct pages or sections. All buttons
 
 #### Browser testing
 
+I tested my website on Chrome, Edge and Firefox. For testin Safari, I used Chrome UA Spoofer.
 
+
+I found one minor difference:
+
+Firefox: regarding the Phone field in the form on book.html, you can type any letter, but you will get an error message saying you have to fill in a number. In other browsers, you can not even type anything else than a number (except for an 'e', but it will still give you an error). I find this acceptible.
 
 #### Device testing
 
