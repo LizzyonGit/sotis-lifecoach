@@ -108,43 +108,42 @@ In this section, you should go over the different parts of your project, and des
   - All three pages have a navigation bar with "Sotis life coach" and "Home" linking to the index.html page, "About", "Philosophy" and "Testimonials" linking to the corresponding sections on the index.html page, "What I offer" linking to the what-i-offer.html page and the "Book" button linking to the book.html page. The page you are currently on is lighting up for the "Home" and "What I offer" pages.
   - The navigation bar allows the user to easily navigate from page to page and to specific sections on a page. 
 
-![Navigation bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Navigation bar](docs/screenshots/features-navbar.png)
 
 - __The landing page image__
 
   - The landing page has a hero image of Sotis, looking into the camera, with an appropriate quote about cats and life. This section hopes to grasp the user's attention and give a positive feeling.
 
-![Landing page image](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
+![Landing page image](docs/screenshots/features-hero.png)
 - __About section__
 
   - The About section gives an introduction to who Sotis is. For a user wanting to know more about Sotis, this is important information. The insight into who he is helps deciding on whether or not to book an appointment.
 
-![About](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About](docs/screenshots/features-about.png)
 
 - __Image with caption__
 
 - The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user, it is part of gaining more information about Sotis and seeing him at work.
 
-![Image with caption](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Image with caption](docs/screenshots/features-image.png)
 
 - __Philosophy section__
 
   - The Philosophy section gives an insight into how Sotis works and what his methods and convictions are. This gives the user more information about his professionality and helps in making the decision to book an appointment or not.
 
-![Philosophy](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Philosophy](docs/screenshots/features-philosophy.png)
 
 - __Testimonials section__
 
 - The Testimonials section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
 
-![Testimonials](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Testimonials](docs/screenshots/features-testimonials.png)
 
 - __The footer__ 
 
   - The footer section includes an address, email address, phone number and links to X, Facebook and Instagram. The links will open to a new tab to allow easy navigation for the user. The address and contact information are important for the user to know where Sotis works, and the possibility to contact him is important to gain trust. The links to the social media are important so the user can get more information and context outside the website, potentially also seeing how trustworthy Sotis is by checking followers and comments on social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](docs/screenshots/features-footer.png)
 
 - __The What I offer page__
 
@@ -152,7 +151,7 @@ In this section, you should go over the different parts of your project, and des
    
    Project file: what-i-offer.html
 
-![What I offer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![What I offer](docs/screenshots/features-offer.png)
 
 - __The Book page__
 
@@ -160,7 +159,7 @@ In this section, you should go over the different parts of your project, and des
 
   Project file: book.html
 
-![Book](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Book](docs/screenshots/features-book.png)
 
 - __The 404 page__
 
@@ -168,7 +167,7 @@ In this section, you should go over the different parts of your project, and des
 
   Project file: 404.html
 
-![404 not found](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![404 not found](docs/screenshots/features-404.png)
 
 ### Features left to implement
 
@@ -176,8 +175,6 @@ In this section, you should go over the different parts of your project, and des
 - A possibility to sign up for a newsletter, where Sotis gives life coach tips for example,
 - A separate page with life coach tips,
 - A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
-- A custom logo, and matching favicon,
-- A sticky navbar specifically for mobile screens,
 - A testimonials section with small profile pictures, and possibly several testimonials at once for large screens,
 - When you click the Book now button on each card on the page What I offer, and you arrive at the Book page, the equivalent session type should be selected in the form.
 
