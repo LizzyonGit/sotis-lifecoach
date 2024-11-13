@@ -2,7 +2,7 @@
 
 Sotis is a life coach, and this is his website. The website targets people interested in getting a life coach. The website shows who Sotis is, how he works and what he offers. Visitors can read what sessions entail and how much they cost, the images give more context and they can read about what previous clients think of their sessions with Sotis. The contact information and social media links give the visitor the possibility to ask questions or look for more information about Sotis beyond his website. The visitor can book an appointment via a form on the website.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Screenshot webpages on different devices](docs/screenshots/responsive-website.png)
 
 [Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
 
@@ -354,6 +354,8 @@ I also tested on my own Huawei smartphone.
 
 ### Fixed bugs
 
+I did not find bugs while testing, only issues, as described above.
+
 ### Unfixed Bugs
 
 Navbar?
@@ -385,6 +387,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 - Favicon.io for creating favicon icons and html code
 - https://realfavicongenerator.net/ for checking the favicon
 - https://autoprefixer.github.io/ for running through style.css
+- Chrome UA Spoofer to test my website on Safari
 
 ## Deployment
 
@@ -425,7 +428,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Check what I can do to improve performance: https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/?utm_source=lighthouse&utm_medium=devtools
 
 ## Acknowledgments
-- 
+- My mentor Antonio Rodriguez for tips and feedback
 
 ## Other General Project Advice
 
