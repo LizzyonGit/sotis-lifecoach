@@ -337,7 +337,19 @@ Firefox: regarding the Phone field in the form on book.html, you can type any le
 
 #### Device testing
 
-I checked the website in developer tools for the different dimensions. 
+I checked the website in developer tools for the different dimensions. A few of my features have very different lay-outs on different screens:
+- Navigation bar: from small mobile screens to and including tablet screens, the menu links are collapsed in a hamburger menu.
+- Hero image: from small mobile screens to but not including tablet screens, the header and quote move from the left center of the image, to the bottom of the image, to not overlap Sotis' head.
+- About, image and Philosophy: from small mobile screens to but not including tablet screens, these sections are stacked vertically.
+- Footer: from small mobile screens to but not including tablet screens, the address and email and phone sections are stacked vertically and aligned to the left. 
+- What I offer: 
+  - from small mobile screens to but not including tablet screens, the four cards are stacked vertically,
+  - from tablet screen size to but not including small laptops at 992 px width, the four cards are displayed in two rows of two cards,
+  - from 992 px, the cards are displayed in one row of four cards.
+- Book: 
+  - from small mobile screens to but not including tablet screens, the form fields are vertically stacked at full width of the screen,
+  - from tablet screen size and up, the form fields are displayed in two columns next to each other.
+
 
 I also checked the different web pages in http://www.responsinator.com/. I found a missing margin there for the 404.html when you turn a device horizontally. I realise I did not see this before because the section is so small, the viewport was always much larger, creating the white space around it when I centered the section with .my-auto. But turning the device creates a much smaller viewport, so the .my-auto did not create any margin around the section, and it does not look good:
 
