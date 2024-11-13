@@ -124,7 +124,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Image with caption__
 
-- The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user, it is part of gaining more information about Sotis and seeing him at work.
+  - The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user, it is part of gaining more information about Sotis and seeing him at work.
 
 ![Image with caption](docs/screenshots/features-image.png)
 
@@ -136,7 +136,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __Testimonials section__
 
-- The Testimonials section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
+  - The Testimonials section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
 
 ![Testimonials](docs/screenshots/features-testimonials.png)
 
