@@ -394,23 +394,23 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ### Frameworks - libraries - programs used
 
-- Bootstrap 5.3
-- Figma for wireframes
+- [Bootstrap](https://getbootstrap.com/) version 5.3
+- [Figma](https://www.figma.com/) for wireframes
 - Chrome DevTools for verifying responsibility and troubleshooting code
-- Gitpod for coding
-- GitHub for version control and hosting
-- Google Fonts for my font pair
-- Fontawesome for my icons
-- TinyPNG for compressing image size and converting to webp
-- Paint for resizing and cropping images
+- [Gitpod](https://www.gitpod.io/) for coding
+- [GitHub](https://github.com/) for version control and hosting
+- [Google Fonts](https://fonts.google.com/) for my font pair
+- [Fontawesome](https://fontawesome.com/) for my icons
+- [TinyPNG](https://tinypng.com/) for compressing image size and converting to webp
+- Windows Paint for resizing and cropping images
 - Windows Photos for resizing images
-- Responsinator.com for checking responsiveness
-- Canva.com for logo
-- Lunapic for transparent background and coloring
-- Favicon.io for creating favicon icons and html code
+- [Responsinator](http://www.responsinator.com/) for checking responsiveness
+- [Canva](https://www.canva.com/) for logo
+- [Lunapic](https://www3.lunapic.com/editor/) for transparent background and coloring in logo
+- [Favicon.io](https://favicon.io/) for creating favicon icons and the html code
 - https://realfavicongenerator.net/ for checking the favicon
-- https://autoprefixer.github.io/ for running through style.css
-- Chrome UA Spoofer to test my website on Safari
+- [Autoprefixer](https://autoprefixer.github.io/) for adding the necessary prefixes to my css stylesheet
+- [Chrome UA Spoofer](https://chromewebstore.google.com/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) to test my website on Safari
 
 ## Deployment
 
