@@ -396,10 +396,10 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - Bootstrap 5.3
 - Figma for wireframes
-- Chrome Dev tools for verifying responsibility and troubleshooting code
+- Chrome DevTools for verifying responsibility and troubleshooting code
 - Gitpod for coding
 - GitHub for version control and hosting
-- Google fonts for my font pair
+- Google Fonts for my font pair
 - Fontawesome for my icons
 - TinyPNG for compressing image size and converting to webp
 - Paint for resizing and cropping images
@@ -419,15 +419,15 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/index.html
+The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/index.html.
 
 ## Credits 
 
 ### Content 
 
-- The quote on the hero image was taken from https://sandjest.com/blogs/quotes/cat-quotes.
+- The quote on the hero image was taken from [Sandjest](https://sandjest.com/blogs/quotes/cat-quotes).
 - All other text was written by me.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
@@ -435,20 +435,20 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 
 ### Resources
 
-- Bootstrap documentation
-- w3schools.com for looking up semantic HTML
-- Stackoverflow led me in the right direction sometimes, but could not specifically answer my questions
-- For font pairing: https://approval.studio/blog/how-to-combine-fonts/
-- Inspiration from CI walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running
-- Inspiration from https://themewagon.github.io/Pilates/
-- For getting a color scheme and checking color contrast: https://coolors.co
-- Grammarly spellschecker
-- Diffchecker.com for checking autoprefixer changes
-- Fixing the navbar for internal links issue: https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/
-- Checking browser compatibility of a css style rule: https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top
-- Html and css for fixing navbar to close after clicking anchor link comes from Bug report channel CI slack from James_BC, with slight adjustment in html
-- Check what I can do to improve performance: https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/?utm_source=lighthouse&utm_medium=devtools
-- Markdown guide https://www.markdownguide.org/
+- Bootstrap documentation [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+- [W3schools](https://www.w3schools.com/) for looking up semantic HTML.
+- [Stackoverflow](https://stackoverflow.com/) for general code questions.
+- For font pairing idea, [this blog from Approval studio](https://approval.studio/blog/how-to-combine-fonts/).
+- Inspiration from CI walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running.
+- Inspiration from [this website template](https://themewagon.github.io/Pilates/).
+- For getting a color scheme and checking the color contrast, [Coolors.co](https://coolors.co).
+- [Grammarly](https://www.grammarly.com/grammar-check) spellchecker.
+- [Diffchecker](https://www.diffchecker.com/text-compare/) for checking autoprefixer changes.
+- Fixing the navigation bar to not overlap internal links, [this article from Css-tricks](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/).
+- Checking browser compatibility of a css style rule, [this page from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top).
+- CI bug report Slack channel, post from James_BC on 16-22 Oct 2024, for the html and css code for fixing the navigation bar to close after clicking anchor links, with minor adjustment from me.
+- Checking what I can do to improve performance, [Chrome DevTools documentation](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/?utm_source=lighthouse&utm_medium=devtools).
+- [Markdown guide](https://www.markdownguide.org/).
 
 ## Acknowledgments
 - My mentor Antonio Rodriguez for tips and feedback
