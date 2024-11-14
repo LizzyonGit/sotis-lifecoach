@@ -191,19 +191,19 @@ All used images are my own.
 | User story                                                              | How it is achieved    |
 | -----------                                                             | -----------           |
 |As any user of this website, I want to:|
-|be able to navigate to all pages on any device<br> and experience a user friendly website|Fixed naviagation bar that is always visible, responsiveness of all pages|
+|be able to navigate to all pages on any device and experience a user friendly website|Fixed naviagation bar that is always visible, responsiveness of all pages|
 |As a person interested in seeing a life coach, I want to:|
-|find information about Sotis the life coach and how he works,<br>so that I can decide if I consider booking an appointment with him.  |About, Philosophy sections, pictures, social media links            |
+|find information about Sotis the life coach and how he works, so that I can decide if I consider booking an appointment with him.  |About, Philosophy sections, pictures, social media links            |
 |As a potential client, I want to:      |
-|find information about what Sotis can offer me, <br>how much it would cost and where it would be,<br> so that I can decide if I want to book an appointment with him.   | What I offer page with all the sessions, address in the footer        |
-|be able to contact Sotis, so that I can ask questions about anything unclear,<br> so that I can decide if I still want to book an appointment with him.| Contact information in the footer        |
-|read reviews from previous clients, to decide if I<br> also want to book an appointment with Sotis.| Testimonials |
+|find information about what Sotis can offer me, how much it would cost and where it would be, so that I can decide if I want to book an appointment with him.   | What I offer page with all the sessions, address in the footer        |
+|be able to contact Sotis, so that I can ask questions about anything unclear, so that I can decide if I still want to book an appointment with him.| Contact information in the footer        |
+|read reviews from previous clients, to decide if I also want to book an appointment with Sotis.| Testimonials |
 |find a way to book an appointment, so that I can do this easily on the website.| Book page with booking form, reached via Book buttons on What I offer page and in the navigation bar |
 |As a confirmed client, I want to:     |
-find contact information, so that I can contact Sotis<br> about any matter regarding my appointment.  | Contact information in the footer        |
+find contact information, so that I can contact Sotis about any matter regarding my appointment.  | Contact information in the footer        |
 |As a site owner, I want to:     |
-get word around about a special cat offering life coach services, <br>so that I build brand awareness.  | The About, Philosophy section, images, the inspiring quote, page What I offer, social media links        |
- get visitors to book an appointment,<br> so that I grow my business and help clients.| The About, Philosophy and Testimonials section, images, What I offer page should convice the visitors, <br>while the buttons that link to the Book page, and the Book page form should get the visitors to actually book.      |
+get word around about a special cat offering life coach services, so that I build brand awareness.  | The About, Philosophy section, images, the inspiring quote, page What I offer, social media links        |
+ get visitors to book an appointment, so that I grow my business and help clients.| The About, Philosophy and Testimonials section, images, What I offer page should convice the visitors, while the buttons that link to the Book page, and the Book page form should get the visitors to actually book.      |
 
 ### Issues
 
