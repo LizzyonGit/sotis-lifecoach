@@ -475,7 +475,8 @@ None.
   - In the left menu, select **Pages**,
   - Under **Source**, select **Deploy from a branch**
   - Under **Branch**, select **main**,
-  - Click **Save**.
+  - Click **Save**, 
+  - In the GitHub repository, in the right menu, click **Deployments** to view the link to the deployed website.
 
 The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/index.html.
 
