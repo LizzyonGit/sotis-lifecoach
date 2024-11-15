@@ -200,9 +200,9 @@ form option, form .form-select {
 }
 }
 
-/*The following media queries are related to getting the navigation bar to collapse after clicking an internal link on index.html*/
+/*The following media queries are related to getting the navigation bar to collapse after clicking an anchor link on index.html*/
 
-/*Code copied from bug report in CI slack from James_BC on Oct 22 2024, to remove the navbar animation when clicking internal links*/
+/*Code copied from bug report in CI slack from James_BC on Oct 22 2024, to remove the navbar animation when clicking anchor links*/
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     
@@ -223,7 +223,7 @@ a.nav-link span {
     padding: 0.5em 0;
 }
 
-/*Removes padding from a.nav-link around the span for internal links, because these have the padding on the span instead.
+/*Removes padding from a.nav-link around the span for anchor links, because these have the padding on the span instead.
 These have the same space around them now as the normal links in the menu*/
 .link-wrapper-nopadding {
     padding: 0;

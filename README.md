@@ -6,6 +6,14 @@ Sotis is a life coach, and this is his website. The website targets people inter
 
 [Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
 
+## Index
+[Planning](#planning)
+[Features](#features)
+[Testing](#testing)
+[Technologies used](#technologies-used)
+[Deployment](#deployment)
+[Credits](#credits)
+
 ## Planning
 
 ### Site goals
