@@ -279,8 +279,8 @@ James_BC also provided a css code that would fix an issue on larger screens, as 
 
 ### Validator testing 
 
-- HTML
-  - The [W3C validator](https://validator.w3.org) notified me along the way about trailing slashes, since I had used 'br /', a missing p tag because I had put an ol tag inside a p tag, which is not allowed. It also notified me about a section without a header, the section I wrapped around the About and Philosophy sections and the image inbetween. This section does not need a separate title, so I gave it an h2 with a visually-hidden class.
+- Html
+  - The [W3C validator](https://validator.w3.org) notified me along the way about trailing slashes, since I had used 'br /', a missing p tag because I had put an ol tag inside a p tag, which is not allowed. It also notified me about a section without a header, the section I wrapped around the *About* and *Philosophy* sections and the image inbetween. This section does not need a separate title, so I gave it an h2 with a *visually-hidden* class.
 
   - No warnings or errors are currently found when passing through the validator:
     -  [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2Findex.html)
@@ -292,14 +292,14 @@ James_BC also provided a css code that would fix an issue on larger screens, as 
     -  [404.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flizzyongit.github.io%2Fsotis-lifecoach%2F404.html)
 
 
-- CSS
+- Css
   - The [(Jigsaw) validator](https://jigsaw.w3.org/css-validator) notified me along the way about an unvalid value of padding, which I missed. This was easily fixed.
 
   - No errors are currently found when passing through the validator:
 
   ![No css errors](docs/screenshots/css-validator.png)
 
-  - The warnings given by the validator apply to the imported google fonts, variables and the autoprefixer additions. These are the same as the warnings for the Boardwalk Games project, and they can be ignored, as they were ignored there.
+  - The warnings given by the validator apply to the imported Google fonts, variables and the autoprefixer additions. These are the same as the warnings for the *Boardwalk Games* project, and they can be ignored, as they were ignored there.
 
   ![Css warnings](docs/screenshots/css-warnings.png)
 
@@ -308,7 +308,7 @@ James_BC also provided a css code that would fix an issue on larger screens, as 
 
 #### Index.html
 
-Running the home page in Lighthouse resulted in 100 % for accessability and best practices, but 79 for performance:
+Running the home page in Lighthouse resulted in 100% for accessability and best practices, but 79% for performance:
 
 ![Lighthouse result 1](docs/screenshots/lighthouse-home-1.png)
 
@@ -316,9 +316,9 @@ Running the home page in Lighthouse resulted in 100 % for accessability and best
 
 An issue was to 'serve images in next-gen formats', suggesting to fix the hero image and my rounded image. I converted those to .webp images.
 
-It also said to 'properly size images', and suggested to fix my logo and the rounded image. I made my logo file and rounded image smaller, but still made sure the original images would always be larger than they actually will be displayed, as I don't want the risk of the images getting enlarged and lose quality.
+It also said to 'properly size images', and suggested to fix my logo and the image of Sotis at work. I made my logo and image files smaller, but still made sure the uploaded images would always be larger than they actually will be displayed, as I don't want the risk of the images getting enlarged and lose quality.
 
-I got an approvement after this to 92%, but the performance score does change from time to time, as my computer is also a bit slow.
+After this, performance improved to 92%, but the score does change from time to time, as my computer is also a bit slow.
 
 ![Lighthouse result 2](docs/screenshots/lighthouse-home-2.png)
 
@@ -326,7 +326,7 @@ Looking at what more I could do, it said to 'minimize main-thread work', mention
 
 ![Lighthouse result 3](docs/screenshots/lighthouse-home-3.png)
 
-After redoing the html with h1 tags, see more below for what-i-offer.html, I got a much better result, but this was taken after I cleaned up my computer a bit, so it could just be my computer's performance influencing this. The red bullets in the Lighthouse report now have to do with Bootstrap, JS, Google Font, all issues I cannot fix. 
+After redoing the html with h1 tags, see more below for what-i-offer.html, I got a much better result, but this was taken after I cleaned up my computer a bit, so it could just be my computer's performance influencing this. The red bullets in the Lighthouse report now have to do with Bootstrap, JS, Google fonts, all issues I cannot fix. 
 
 ![Lighthouse result 4](docs/screenshots/lighthouse-home-4.png)
 
@@ -336,17 +336,17 @@ Before running Lighthouse, I converted all my images to .webp files. The first r
 
 ![Lighthouse result 1](docs/screenshots/lighthouse-offer-1.png)
 
-Regarding accessibility on 98%, there was an issue 'Heading elements are not in a sequentially-descending order'. This is because the card titles from Bootstrap have the h5, while the descending order would be h3. I changed all these card titles to h3 with a class of h5 to have the same font size. Because of my custom css for h3, the font changed to Montserrat Alternates, which I kept.
+Regarding accessibility on 98%, there was an issue 'Heading elements are not in a sequentially-descending order'. This is because the card titles from Bootstrap have the h5, while the descending order would be h3. I changed all these card titles to h3 with a class of h5 to have the same font size. Because of my custom css for h3, the font changed to *Montserrat Alternates*, which I kept.
 
 Running Lighthouse again, resulted in 100% for accessibility, and now suddenly performance got to 95% as well.
 
 ![Lighthouse result 2](docs/screenshots/lighthouse-offer-2.png)
 
-After this, I actually went through the use of my headings on all pages, since an h1 was missing on every page. After adding h1 and redoing the html structure a bit, I run the HTML and CSS validators again and updated the results. I also got a new better result for Lighthouse on the home page, which may have to do that I took this one after my computer was cleaned up a bit.
+After this, I actually went through the use of my headings on all pages, since an h1 was missing on every page. After adding h1 and redoing the html structure a bit, I run the html and css validators again and updated the results. I also got a new better result for Lighthouse on the home page, which may have to do that I took this one after my computer was cleaned up a bit.
 
 ![Lighthouse result 3](docs/screenshots/lighthouse-offer-3.png)
 
-The red bullets in the Lighthouse report now have to do with Bootstrap, JS, Google Font, all issues I cannot fix. Sometimes, it says my image for the 'Talking' session is too large, but it is already converted.
+The red bullets in the Lighthouse report now have to do with Bootstrap, JS, Google fonts, all issues I cannot fix. Sometimes, it says my image for the *Talking* session is too large, but it is already converted.
 
 #### book.html
 
@@ -354,7 +354,7 @@ The first run Lighthouse report gives 98% on performance and 100% on accessibili
 
 ![Lighthouse result 1](docs/screenshots/lighthouse-book-1.png)
 
-The red bullets, like for the other pages, mention CCS, JS which is related to Bootstrap, Google Fonts. It mentions to 'minimize main-thread work' again, 'Other' being the highest, but I don't see how I can fix this and I'm happy with the score.
+The red bullets, like for the other pages, mention CCS, JS which is related to Bootstrap, and Google fonts. It mentions to 'minimize main-thread work' again, 'Other' being the highest, but I don't see how I can fix this and I'm happy with the score.
 
 #### 404.html
 
@@ -362,13 +362,26 @@ The first Lighthouse report gives 98% on performance and 100% on accessibility a
 
 ![Lighthouse result 1](docs/screenshots/lighthouse-404-1.png)
 
-I'm happy with this score for performance, and like the other pages it mentions Bootstrap, Google Fonts, and I don't see anything I can improve.
+I'm happy with this score for performance, and like the other pages it mentions Bootstrap, Google fonts, and I don't see anything I can improve.
 
 ### Manual testing
 
 #### Form testing
 
-I tested the form on the book.html page and you can not send the form if not all fields are filled out. Each time you try to click Send, it will give a warning message on the first field that is not filled out, and after you fill that one out and click Send again, it will show the message on the next field, and so on. For the email field, it requires an @ and an '.com' and something before @ and inbetween, 'a@a.com' works. The phone number field requires a number (however, it does let you type an 'e', but will still give an error), and all other fields are texts. The selectible option fields all show the correct options and you actively have to select one to continue.
+I tested the form on the book.html page and you can not send the form if not all fields are filled out. Each time you try to click **Send**, it will give a warning message on the first field that is not filled out, and after you fill that one out and click **Send** again, it will show the message on the next field, and so on. 
+
+
+For the email field, it requires an @ and an '.com' and something before @ and inbetween, 'a@a.com' works. 
+
+
+The phone number field requires a number (however, it does let you type an 'e', but will still give an error).
+
+
+The selectible option fields all show the correct options and you actively have to select one to continue.
+
+
+All other fields are texts. 
+
 
 After sending a completed form, you go to the CI formdump where you can see that the input names and values are correct.
 
@@ -378,35 +391,35 @@ All links in the navigation bar go to the correct pages or sections. All buttons
 
 #### Browser testing
 
-I tested my website on Chrome, Edge and Firefox. For testin Safari, I used Chrome UA Spoofer.
+I tested my website on Chrome, Edge and Firefox. For testing Safari, I used Chrome UA Spoofer.
 
 
 I found one minor difference:
 
-Firefox: regarding the Phone field in the form on book.html, you can type any letter, but you will get an error message saying you have to fill in a number. In other browsers, you can not even type anything else than a number (except for an 'e', but it will still give you an error). I find this acceptable.
+On Firefox, regarding the **Phone** field in the form on book.html, you can type any letter, but you will get an error message saying you have to fill in a number. In other browsers, you can not even type anything else than a number (except for an 'e', but it will still give you an error). I find this acceptable.
 
 #### Device testing
 
-I checked the website in developer tools for the different dimensions. A few of my features have very different lay-outs on different screens, working as intended:
+I checked the website in DevTools for the different dimensions. A few of my features have very different lay-outs on different screens, working as intended:
 - Navigation bar: from small mobile screens to and including tablet screens, the menu links are collapsed in a hamburger menu.
 - Hero image: from small mobile screens to but not including tablet screens, the header and quote move from the left center of the image, to the bottom of the image, to not overlap Sotis' head.
-- About, image and Philosophy: from small mobile screens to but not including tablet screens, these sections are stacked vertically and take up the full screen width, with the headers centered. From tablet screens and up, they take up one row with three equal width columns, and the headers are left aligned.
-- Testimonials: from small mobile screens up to and including 991 px width, the carousel takes the full width of the screen, from 992 px, it takes half the width of the container, but is centered in the middle of the screen.
+- **About**, image and **Philosophy**: from small mobile screens to but not including tablet screens, these sections are stacked vertically and take up the full screen width, with the headers centered. From tablet screens and up, they take up one row with three equal width columns, and the headers are left aligned.
+- **Testimonials**: from small mobile screens up to and including 991 px width, the carousel takes the full width of the screen, from 992 px, it takes half the width of the container, but is centered in the middle of the screen.
 - Footer: from small mobile screens to but not including tablet screens, the address section and email and phone section are stacked vertically and aligned to the left. From tablet size screens, these two sections are displayed next to each other in two columns, where the adress section in the left column is moved to the end/right of its own column.
-- What I offer: 
+- **What I offer** page: 
   - from small mobile screens to but not including tablet screens, the four cards are stacked vertically, each at full width of the screen,
   - from tablet screen size to but not including small laptops at 992 px width, the four cards are displayed in two rows of two cards,
   - from 992 px, the cards are displayed in one row of four cards.
-- Book: 
+- **Book** page: 
   - from small mobile screens to but not including tablet screens, the form fields are vertically stacked at full width of the screen,
   - from tablet screen size and up, the form fields are displayed in two columns next to each other.
 
 
-I also checked the different web pages in http://www.responsinator.com/. I found a missing margin there for the 404.html when you turn a device horizontally. I realise I did not see this before because the section is so small, the viewport was always much larger, creating the white space around it when I centered the section with .my-auto. But turning the device creates a much smaller viewport, so the .my-auto did not create any margin around the section, and it does not look good:
+I also checked the different web pages in [Responsinator](http://www.responsinator.com/). I found a missing margin there for 404.html when you turn a device horizontally. I realise I did not see this before because the section is so small, the viewport was always much larger, creating the white space around it when I centered the section with the *.my-auto* class. But turning the device creates a much smaller viewport, so the *.my-auto* did not create any margin around the section, and it does not look good:
 
 ![Device test 404.html issue](docs/screenshots/device-test-1.png)
 
-I simple added .my-3 to the inner div.row to create some margin, without interfering with anything else. It looks fine now:
+I simple added *.my-3* to the inner div.row to create some margin, without interfering with anything else. It looks fine now:
 
 ![Device test 404.html issue fixed](docs/screenshots/device-test-2.png)
 
@@ -416,18 +429,18 @@ I also tested on my own Huawei smartphone.
 
 #### Favicon testing
 
-When I ran my website in Realfavicongenerator's [favicon checker](https://realfavicongenerator.net/checker), I got several errors, it seemed like I was missing som files that Favicon.io did not generate. So I decided to replace my favicons with the ones generated by Realfavicongenerator and get a new html code. I also removed my favicon folder and moved the files to the root folder, as I read on several websites that this is recommended.
+When I ran my website in Realfavicongenerator's [favicon checker](https://realfavicongenerator.net/checker), I got several errors, it seemed like I was missing som files that Favicon.io, that I used initially, did not generate. So I decided to replace my favicons with the ones generated by Realfavicongenerator and get a new html code. I also removed my favicon folder and moved the files to the root folder, as I read on several websites that this is recommended.
 
 
 After checking my website in the favicon checker again, there were two errors left regarding the web app manifest, saying the 192x192 and 512x512 icons could not be found. I could not fix this issue, so I decided to remove the web app manifest file and images. These icons are for when a website can be installed as an app, which is not relevant at this point.
 
 ### Fixed bugs
 
-See Issues.
+See [Issues](#issues).
 
 ### Unfixed Bugs
 
-None
+None.
 
 ## Technologies used
 
