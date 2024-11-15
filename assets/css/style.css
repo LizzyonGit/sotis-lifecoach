@@ -225,7 +225,7 @@ a.nav-link span {
 
 /*Removes padding from a.nav-link around the span for internal links, because these have the padding on the span instead.
 These have the same space around them now as the normal links in the menu*/
-#link-wrapper-nopadding {
+.link-wrapper-nopadding {
     padding: 0;
 }
 }
