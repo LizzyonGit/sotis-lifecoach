@@ -7,12 +7,12 @@ Sotis is a life coach, and this is his website. The website targets people inter
 [Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
 
 ## Index
-[Planning](#planning)
-[Features](#features)
-[Testing](#testing)
-[Technologies used](#technologies-used)
-[Deployment](#deployment)
-[Credits](#credits)
+- [Planning](#planning)
+- [Features](#features)
+- [Testing](#testing)
+- [Technologies used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ## Planning
 
@@ -51,19 +51,19 @@ Sotis is a life coach, and this is his website. The website targets people inter
 
 #### Tasks to achieve user stories
 
-- create informative sections with background information about Sotis and according to which philosophy he works, with an image from his work environment,
-- create informative cards about the different sessions Sotis can offer the client and what these cost, how long they take and what they entail, with a suitable image, and a button to book them,
-- create a form where a client can choose a session and a date and time to book this session, along with filling in name, email, phone and a message,
-- create a testimonials section that contains a few reviews from other clients,
-- create a navbar with navigation to Home, About, Philosophy, Testimonials, What I offer and Book,
-- create a footer with contact information, address, social media links,
-- create a header on the Home page with a quote over a Hero image.
+- Create informative sections with background information about Sotis and according to which philosophy he works, with an image from his work environment.
+- Create informative cards about the different sessions Sotis can offer the client and what these cost, how long they take and what they entail, with a suitable image, and a button to book them.
+- Create a form where a client can choose a session and a date and time to book this session, along with filling in name, email, phone and a message.
+- Create a testimonials section that contains a few reviews from other clients.
+- Create a nav bar with navigation to **Home**, **About**, **Philosophy**, **Testimonials**, **What I offer** and **Book**.
+- Create a footer with contact information, address, and social media links.
+- Create a header on the home page with a quote over a hero image.
 
 ### Design
 
 #### Wireframes
 
-Below are my initial wireframes per page for mobile, tablet and laptop screen sizes. I used Figma to create them.
+Below are my initial wireframes per page for mobile, tablet and laptop screen sizes. I used [Figma](https://www.figma.com/) to create them.
 
 <details>
     <summary>Page 1 - Home</summary>
@@ -91,20 +91,24 @@ Below are my initial wireframes per page for mobile, tablet and laptop screen si
 
 #### Color schemes
 
-I searched the internet for life coach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. So I found this website that I liked: https://themewagon.github.io/Pilates/, I picked two colors from it (#55CBD2 and #C5FFF1), and went to https://coolors.co/ where I entered those two colors and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
+I searched the internet for life coach websites and my mentor also instantly said I would probably use a lot of blue because it conveys calmness. I found this website that I liked: https://themewagon.github.io/Pilates/, and picked two colors from it (#55CBD2 and #C5FFF1). I entered them in [Coolors.co](https://coolors.co/) and asked for two more colors. Keeping in mind the mainly blue theme, I went with these two complementary darker colors: #173753 and #1B4353.
+
+
 My main background is white, as I don't want to overdo it with a blue background. 
+
 
 On the hero image, I used a neutral transparent black background with white text to not intervene with the image. 
 
-For color contrast, the used text color-background combinations get a score of 6.36 and up.
+
+For color contrast, the used text color-background combinations get a score of 6.36 and up according to [Coolors.co](https://coolors.co/).
 
 #### Fonts
 
-I went on Google fonts and set the filter to "Calm", browsing through the results this one stuck out to me: Montserrat Alternates. I liked the "E" being different than the other fonts. For a pairing, I couldn't find anything on some of the font pairing sites, but when I just googled for font pairs with Montserrat Alternates, this blog came up (https://approval.studio/blog/how-to-combine-fonts/), where they argued for the pair Montserrat Alternates and Raleway, so I decided to go with that.
+I went on [Google Fonts](https://fonts.google.com/) and set the filter to 'Calm'. Browsing through the results, *Montserrat Alternates* stuck out to me. I liked the 'E' being different than the other fonts. For a pairing font, I couldn't find anything on some of the font pairing sites, but when I just googled for font pairs with 'Montserrat Alternates', this blog came up (https://approval.studio/blog/how-to-combine-fonts/), where they argued for the pair *Montserrat Alternates* and *Raleway*, so I decided to go with that.
 
 #### Logos and images
 
-The logo with a cat and a book is from Canva.com, from which I removed the text. In www3.lunapic.com I created a transparent background and changed the color to create a logo for the navbar in #55CBD2 and as a favicon in #173753. To create the favicon files, I used [RealFaviconGenerator](https://realfavicongenerator.net/).
+The logo with a cat and a book is from [Canva](https://www.canva.com/), from which I removed the text. In [Lunapic](https://www3.lunapic.com/editor/) I created a transparent background and changed the color to create a logo in #55CBD2 or the navigation bar, and in #173753 for the favicon. To create the favicon files, I used [RealFaviconGenerator](https://realfavicongenerator.net/).
 
 
 All used images are my own.
@@ -115,50 +119,51 @@ All used images are my own.
 
 - __Navigation bar__
 
-  - All three pages have a navigation bar with a logo, 'Sotis life coach' and 'Home' linking to the index.html page, 'About', 'Philosophy' and 'Testimonials' linking to the corresponding sections on the index.html page, 'What I offer' linking to the what-i-offer.html page and the 'Book' button linking to the book.html page. The page you are currently on is lighting up for the 'Home' and 'What I offer' pages.
-  - The navigation bar allows the user to easily navigate from page to page and to specific sections on a page. It is fixed on top of the screen which is specifically useful for mobile phone users, as the pages are longer there, so the navigation is always easily reached.
+  - All three pages have a navigation bar with the logo, **SOTIS LIFE COACH** and **Home** linking to the index.html page, **About**, **Philosophy** and **Testimonials** linking to the corresponding sections on the index.html page, **What I offer** linking to the what-i-offer.html page and the **Book** button linking to the book.html page. The page you are currently on is lighting up for the **Home** and **What I offer** page.
+  - The navigation bar allows you to easily navigate between pages and specific sections on a page. It is fixed on top of the screen which is specifically useful for mobile phone users, as the pages are longer there, so the navigation is always easily reached.
 
 ![Navigation bar](docs/screenshots/features-navbar.png)
 
 - __The landing page image__
 
-  - The landing page has a hero image of Sotis, looking into the camera, a header 'Sotis life coach' with an appropriate quote about cats and life. This section hopes to grasp the user's attention and give a positive feeling.
-  - My initial hero image would be with the About section on top, but I decided to focus on the life coach himself, Sotis, in the hero image, with a one liner on it, as I've seen in several life coach website templates.
+  - The landing page has a hero image of Sotis, looking into the camera, a header *Sotis life coach* with an appropriate quote about cats and life. This section hopes to grasp the user's attention and give a positive feeling.
+  - My initial hero image would be with the **About** section on top, but I decided to focus on the life coach himself, Sotis, in the hero image, with a one liner on it, as I've seen in several life coach website templates.
 
 ![Landing page image](docs/screenshots/features-hero.png)
+
 - __About section__
 
-  - The About section gives an introduction to who Sotis is and his background. For a user wanting to know more about Sotis, this is important information. The insight into who he is helps deciding on whether or not to book an appointment.
+  - The **About** section gives an introduction to who Sotis is and his background. For a user wanting to know more about Sotis, this is important information. The insight into who he is helps deciding on whether or not to book an appointment.
 
 ![About](docs/screenshots/features-about.png)
 
 - __Image with caption__
 
-  - The image with caption between the About and Philosophy section, where Sotis sits with a notebook, should give the user more context. For the user, it is part of gaining more information about Sotis and seeing him at work.
+  - The image with caption between the **About** and **Philosophy** sections, where Sotis sits with a notebook, should give the user more context. For the user, it is part of gaining more information about Sotis and seeing him at work.
 
 ![Image with caption](docs/screenshots/features-image.png)
 
 - __Philosophy section__
 
-  - The Philosophy section gives an insight into how Sotis works and what his methods and convictions are. This gives the user more information about his professionality, what to expect,  and helps in making the decision to book an appointment or not.
+  - The **Philosophy** section gives an insight into how Sotis works and what his methods and convictions are. This gives the user more information about his professionality, what to expect,  and helps in making the decision to book an appointment or not.
 
 ![Philosophy](docs/screenshots/features-philosophy.png)
 
 - __Testimonials section__
 
-  - The Testimonials section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
+  - The **Testimonials** section displays previous clients' testimonials about their experiences with Sotis. They are displayed in a text-based carousel, with control buttons and playing on page load. This section is important in convincing users to book an appointment, as the testimonials come from people outside and will gain trust for Sotis.
 
 ![Testimonials](docs/screenshots/features-testimonials.png)
 
 - __The footer__ 
 
-  - The footer section includes an address, email address, phone number and links to X, Facebook and Instagram. The links will open to a new tab to allow easy navigation for the user. The address and contact information are important for the user to know where Sotis works, and the possibility to contact him is important to gain trust. The links to the social media are important so the user can get more information and context outside the website, potentially also seeing how trustworthy Sotis is by checking followers and comments on social media.
+  - The footer section includes an address, email address, phone number and links to *X*, *Facebook* and *Instagram*. The links will open in a new tab to allow easy navigation for the user. The address and contact information are important for the user to know where Sotis works, and the possibility to contact him is important to gain trust. The links to the social media are important, so the user can get more information and context outside the website, potentially also seeing how trustworthy Sotis is by checking followers and comments on social media.
 
 ![Footer](docs/screenshots/features-footer.png)
 
 - __The What I offer page__
 
-  - The page What I offer has an introductory header text and displays the four different sessions you can book with Sotis in card format. Each card has an image, related to the session type, a title, description, button that links to the book.html page, and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book.
+  - The page **What I offer** has an introductory header text and displays the four different sessions you can book with Sotis in card format. Each card has an image, related to the session type, a title, description, button that links to the book.html page, and a footer with duration and fee information. This page is crucial for the user to decide if they want to book a session and if so, which session they want to book.
    
    
    Project file: what-i-offer.html
@@ -167,7 +172,7 @@ All used images are my own.
 
 - __The Book page__
 
-  - The Book page consists of an introductory header text and a form with the fields First name, Last name, Email, Phone, Session type, Preferred date and time, and a Send button. All fields are required to be able to submit the form. The Book page is crucial for the user and site owner, as it allows to book an appointment with Sotis. Clicking Send leads to the CI formdump https://formdump.codeinstitute.net/.
+  - The **Book** page consists of an introductory header text and a form with the fields **First name**, **Last name**, **Email**, **Phone**, **Session type**, **Preferred date and time**, and a **Send** button. All fields are required to be able to submit the form. The **Book** page is crucial for the user and site owner, as it allows to book an appointment with Sotis. Clicking **Send** leads to the CI formdump https://formdump.codeinstitute.net/.
 
 
   Project file: book.html
@@ -185,12 +190,12 @@ All used images are my own.
 
 ### Features left to implement
 
-- Video recordings (short parts) of sessions added to the page What I offer,
-- A possibility to sign up for a newsletter, where Sotis gives life coach tips for example,
-- A separate page with life coach tips,
-- A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options,
-- A testimonials section with small profile pictures, and possibly several testimonials at once for large screens,
-- When you click the Book now button on each card on the page What I offer, and you arrive at the Book page, the equivalent session type should be selected in the form.
+- Video recordings (short parts) of sessions added to the page **What I offer**.
+- A possibility to sign up for a newsletter, where Sotis gives life coach tips for example.
+- A separate page with life coach tips.
+- A more dynamic booking form that is connected to a real calendar, so that people can only book available times and don't need to wait for a manual booking confirmation, possibly also payment options.
+- A testimonials section with small profile pictures, and possibly several testimonials at once for large screens.
+- When you click the **Book now** button on each card on the page **What I offer**, and you arrive at the **Book** page, the equivalent session type should be selected in the form.
 
 ## Testing 
 
@@ -199,26 +204,26 @@ All used images are my own.
 |   User story                                                            | How it is achieved    |
 |  -----------                                                             | -----------           |
 |**As any user of this website, I want to:**|
-|be able to navigate to all pages on any device and experience a user friendly website|Fixed naviagation bar that is always visible, responsiveness of all pages|
+|be able to navigate to all pages on any device and experience a user friendly website|Fixed navigation bar that is always visible, responsiveness of all pages.|
 |**As a person interested in seeing a life coach, I want to:**|
-|find information about Sotis the life coach and how he works, so that I can decide if I consider booking an appointment with him.  |About, Philosophy sections, pictures, social media links            |
+|find information about Sotis the life coach and how he works, so that I can decide if I consider booking an appointment with him.  |**About** and **Philosophy** sections, pictures, social media links.            |
 |**As a potential client, I want to:**      |
-|find information about what Sotis can offer me, how much it would cost and where it would be, so that I can decide if I want to book an appointment with him.   | What I offer page with all the sessions, address in the footer        |
-|be able to contact Sotis, so that I can ask questions about anything unclear, so that I can decide if I still want to book an appointment with him.| Contact information in the footer        |
-|read reviews from previous clients, to decide if I also want to book an appointment with Sotis.| Testimonials |
-|find a way to book an appointment, so that I can do this easily on the website.| Book page with booking form, reached via Book buttons on What I offer page and in the navigation bar |
+|find information about what Sotis can offer me, how much it would cost and where it would be, so that I can decide if I want to book an appointment with him.   | **What I offer** page with all the offered sessions, address in the footer.        |
+|be able to contact Sotis, so that I can ask questions about anything unclear, so that I can decide if I still want to book an appointment with him.| Contact information in the footer.        |
+|read reviews from previous clients, to decide if I also want to book an appointment with Sotis.| **Testimonials** section. |
+|find a way to book an appointment, so that I can do this easily on the website.| **Book** page with booking form, reached via **Book now** buttons on **What I offer** page and **Book** button in the navigation bar. |
 |**As a confirmed client, I want to:**     |
-find contact information, so that I can contact Sotis about any matter regarding my appointment.  | Contact information in the footer        |
+find contact information, so that I can contact Sotis about any matter regarding my appointment.  | Contact information in the footer.        |
 |**As a site owner, I want to:**    |
-get word around about a special cat offering life coach services, so that I build brand awareness.  | The About, Philosophy section, images, the inspiring quote, page What I offer, social media links        |
- get visitors to book an appointment, so that I grow my business and help clients.| The About, Philosophy and Testimonials section, images, What I offer page should convice the visitors, while the buttons that link to the Book page, and the Book page form should get the visitors to actually book.      |
+get word around about a special cat offering life coach services, so that I build brand awareness.  | The **About** and **Philosophy** sections, images, the inspiring quote, page **What I offer**, social media links.        |
+ get visitors to book an appointment, so that I grow my business and help clients.| The **About**, **Philosophy** and **Testimonials** sections, images, and **What I offer** page should convice the visitors, while the buttons that link to the **Book** page, and the **Book** page form should get the visitors to actually book.      |
 
 ### Issues
 
 I want to mention a few issues here because they were not straight-forward to fix.
 
 #### Testimonials carousel
-The biggest issue I faced is the text-based Testimonials carousel.
+The biggest issue I faced is the text-based **Testimonials** carousel.
 
 - To have the controls not overlap the text, I had to give the carousel slide a certain padidng which also had to be adapted for different screens with media queries, because for smaller screens, too much padding caused a lot of empty space and cramped text.
 
