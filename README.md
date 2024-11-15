@@ -1,10 +1,10 @@
 # Sotis life coach
 
+[Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
+
 Sotis is a life coach, and this is his website. The website targets people interested in getting a life coach. The website shows who Sotis is, how he works and what he offers. Visitors can read what sessions entail and how much they cost, the images give more context and they can read about what previous clients think of their sessions with Sotis. The contact information and social media links give the visitor the possibility to ask questions or look for more information about Sotis beyond his website. The visitor can book an appointment via a form on the website.
 
 ![Screenshot webpages on different devices](docs/screenshots/responsive-website.png)
-
-[Live link to website](https://lizzyongit.github.io/sotis-lifecoach/index.html)
 
 ## Index
 - [Planning](#planning)
@@ -470,10 +470,11 @@ None.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was deployed to GitHub pages. The steps to deploy are: 
+  - In the GitHub repository, navigate to the **Settings** tab,
+  - In the left menu, select **Pages**,
+  - Under **Branch**, select **main**,
+  - Click **Save**.
 
 The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/index.html.
 
@@ -492,10 +493,10 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 ### Resources
 
 - Bootstrap documentation [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
-- [W3schools](https://www.w3schools.com/) for looking up semantic HTML.
+- [W3schools](https://www.w3schools.com/) for looking up semantic html.
 - [Stackoverflow](https://stackoverflow.com/) for general code questions.
 - For font pairing idea, [this blog from Approval studio](https://approval.studio/blog/how-to-combine-fonts/).
-- Inspiration from CI walkthrough projects Boardwalk Games, Mei Wong portfolio and Love running.
+- Inspiration from CI walkthrough projects *Boardwalk Games*, *Mei Wong portfolio* and *Love running*.
 - Inspiration from [this website template](https://themewagon.github.io/Pilates/).
 - For getting a color scheme and checking the color contrast, [Coolors.co](https://coolors.co).
 - [Grammarly](https://www.grammarly.com/grammar-check) spellchecker.
@@ -504,7 +505,7 @@ The live link can be found here - https://lizzyongit.github.io/sotis-lifecoach/i
 - Checking browser compatibility of a css style rule, [this page from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top).
 - CI bug report Slack channel, post from James_BC on 16-22 Oct 2024, for the html and css code for fixing the navigation bar to close after clicking anchor links, with minor adjustment from me.
 - Checking what I can do to improve performance, [Chrome DevTools documentation](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/?utm_source=lighthouse&utm_medium=devtools).
-- [Markdown guide](https://www.markdownguide.org/).
+- [Markdown guide](https://www.markdownguide.org/) for markdown syntax.
 
 ## Acknowledgments
 - My mentor Antonio Rodriguez for tips, feedback, and fixing a bug.
