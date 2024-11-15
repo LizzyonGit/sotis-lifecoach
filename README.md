@@ -473,6 +473,7 @@ None.
 - The site was deployed to GitHub pages. The steps to deploy are: 
   - In the GitHub repository, navigate to the **Settings** tab,
   - In the left menu, select **Pages**,
+  - Under **Source**, select **Deploy from a branch**
   - Under **Branch**, select **main**,
   - Click **Save**.
 
