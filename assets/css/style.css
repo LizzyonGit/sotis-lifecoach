@@ -212,9 +212,18 @@ form option, form .form-select {
     }
 }
 /*Bug fix from my mentor Antonio Rodriguez, this makes the anchor link span element in the navbar at full width of the screen, 
-so that you can click next to the menu item and the navbar will still close*/
+so that you can click next to the menu item and the navbar will still close.
+I also add padding to these spans so that you can click a bit above or under the link title, and the nav bar will close while navigating*/
 @media screen and (max-width: 991px){
 a.nav-link span {
     display: block;
     width: 100%;
-}}
+    padding: 0.5em 0;
+}
+
+/*Removes padding from a.nav-link around the span for internal links, because these have the padding on the span instead.
+These have the same space around them now as the normal links in the menu*/
+#link-wrapper-nopadding {
+    padding: 0;
+}
+}

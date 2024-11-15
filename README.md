@@ -236,7 +236,11 @@ The biggest issue I faced is the text-based Testimonials carousel.
 
 - But I still needed to fix the issue of the nav bar not closing after clicking an anchor link, as is done in the Boardwalk games project as well. The javascript code provided there, interferred with my scroll-padding-top solution, so I needed to find another solution for closing the nav bar after clicking an anchor link. For this, I used a posted bug report on CI's Slack on October 16-22 2024. James_BC provides an html code to make the anchor links close after clicking. This HTML code did not work but I quickly found that this was because the id was not correct, so I adapted the code and it worked. James_BC even provided a css code that would fix an issue on larger screens, as the navbar menu titles seem to collapse and open again. I copied this code in my css.stylesheet under media queries, and it worked.
 
-- It does still bother me that the navbar is not closing when you click next to an anchor link text. Another issue is that the navbar is not closing quickly, it seems to roll upp, so it does interfere a bit with the user experience. 
+- However, I noticed that the navigation bar did not close when you click next to an anchor link text, even if it navigates to the link. My mentor Anonio Rodriguez found a fix for that during our mentor session, he provided a css style making the span element inside the anchor link display as a full width block, and therefore, when you click next the the link title, the navigation bar closes and navigates to the link. 
+
+- But I saw that even if you click a bit under a link title, the navigation bar will not close even if it navigates correctly. In DevTools, I saw this had to do with a padding that is missing on the span, so the span's height was not the same as the anchor link. To fix this, I decided to give those wrapping anchor link elements an ID, and target them to not have a padding, and put the padding on the span inside them instead. This way, all the menu items have the same space between, and you can click a bit under or above a link title, and still go to the correct section while the navigation bar closes.
+
+A small issue is that the navbar is not closing quickly, it seems to roll upp as the page navigates to the correct section, but I think this is acceptible.
 
 ### Validator testing 
 
