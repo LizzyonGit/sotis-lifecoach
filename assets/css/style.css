@@ -217,7 +217,7 @@ form option, form .form-select {
 so that you can click next to the menu item and the navbar will still close.
 I also add padding to these spans so that you can click a bit above or under the link title, and the nav bar will close while navigating*/
 @media screen and (max-width: 991px){
-a.nav-link span {
+    .link-wrapper-nopadding span {
     display: block;
     width: 100%;
     padding: 0.5em 0;
