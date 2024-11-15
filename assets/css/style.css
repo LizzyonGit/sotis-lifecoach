@@ -200,6 +200,8 @@ form option, form .form-select {
 }
 }
 
+/*The following media queries are related to getting the navigation bar to collapse after clicking an internal link on index.html*/
+
 /*Code copied from bug report in CI slack from James_BC on Oct 22 2024, to remove the navbar animation when clicking internal links*/
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
